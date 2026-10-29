@@ -1,0 +1,26 @@
+{
+  "name": "headshot-motion-edit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Edit out/final.mp4 --codec=h264 --crf=18",
+    "render:max": "remotion render Edit out/final.mp4 --codec=h264 --crf=10 --image-format=png --x264-preset=slow --audio-bitrate=320k --color-space=bt709 --pixel-format=yuv420p"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "@remotion/google-fonts": "4.0.535",
+    "@remotion/media": "4.0.535",
+    "@remotion/media-utils": "4.0.535",
+    "@remotion/transitions": "4.0.535",
+    "lucide-react": "^1.57.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
