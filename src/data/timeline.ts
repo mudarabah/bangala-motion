@@ -2,7 +2,7 @@
 // public/transcript.json (ElevenLabs), with the word in a comment.
 // To fix sync, change one number here. Generated from the transcript — do not guess times.
 //
-// The voiceover says the same script twice, so there are two parts with the same scenes.
+// The voiceover file says the same script twice; only the first time is used (see voiceEnd).
 
 export const partA = {
   import: {
@@ -112,117 +112,10 @@ export const partA = {
   },
 };
 
-export const partB: Timeline = {
-  import: {
-    start: 96.64, // "আমরা"
-    sorasori: 96.94, // "সরাসরি"
-    chin: 97.76, // "চীন"
-    theke: 98.04, // "থেকে"
-    fashion: 98.42, // "fashion"
-    amdani: 99.46, // "আমদানি"
-    bangladesh: 100.68, // "বাংলাদেশে"
-    khuchra: 101.54, // "খুচরা"
-    paikari: 102.26, // "পাইকারি"
-    bikri: 103.18, // "বিক্রি"
-  },
-  profit: {
-    start: 104.24, // "ব্যবসা"
-    munafa: 105.36, // "মুনাফার"
-    nirdharito: 105.96, // "নির্ধারিত"
-    ongsho: 106.80, // "অংশ"
-    murabaha: 107.64, // "মুরাবাহা"
-    biniyogkari: 109.26, // "বিনিয়োগকারীদের"
-    share: 110.46, // "শেয়ার"
-  },
-  company: {
-    start: 111.80, // "মুদারাবা"
-    trade: 112.44, // "ট্রেড"
-    limited: 112.76, // "লিমিটেড"
-    sorkar: 113.58, // "সরকার"
-    kortrik: 114.00, // "কর্তৃক"
-    nibondhito: 114.44, // "নিবন্ধিত"
-    privateLtd: 115.52, // "Private"
-  },
-  transparency: {
-    start: 117.46, // "বিনিয়োগের"
-    sscchota: 118.02, // "স্বচ্ছতা"
-    apnar: 119.68, // "আপনার"
-    somoporiman: 120.62, // "সমপরিমাণ"
-    cheque: 121.76, // "চেক"
-    tinshoto: 123.42, // "তিনশত"
-    stamp: 124.32, // "স্ট্যাম্পে"
-    company: 125.02, // "কোম্পানির"
-    likhito: 126.70, // "লিখিত"
-    sompadon: 127.54, // "সম্পাদন"
-  },
-  bank: {
-    start: 128.94, // "এছাড়া"
-    biniyog: 129.56, // "বিনিয়োগের"
-    sompurno: 130.16, // "সম্পূর্ণ"
-    lenden: 130.76, // "লেনদেন"
-    bank: 132.00, // "ব্যাংক"
-    protiti: 134.84, // "প্রতিটি"
-    record: 136.64, // "record"
-  },
-  details: {
-    start: 138.06, // "বিনিয়োগের"
-    biboron: 138.62, // "বিবরণ,"
-    sorbonimno: 139.64, // "সর্বনিম্ন"
-    pochish: 141.00, // "পঁচিশ"
-    meyad: 143.02, // "মেয়াদ"
-    chhoy: 143.86, // "ছয়"
-    noy: 144.86, // "নয়"
-    baro: 145.90, // "বারো"
-  },
-  payout: {
-    start: 147.02, // "মুনাফা"
-    prodan: 147.44, // "প্রদান,"
-    murabaha: 148.24, // "মুরাবাহা"
-    proti: 150.50, // "প্রতি"
-    dosh: 151.26, // "দশ"
-    sheyar: 152.90, // "শেয়ারের"
-    satsho: 154.08, // "সাতশো"
-    taka: 155.02, // "টাকা"
-  },
-  principal: {
-    start: 156.52, // "মেয়াদ"
-    sheshe: 156.86, // "শেষে"
-    biniyog: 157.26, // "বিনিয়োগের"
-    mul: 157.86, // "মূল"
-    sompurno: 158.80, // "সম্পূর্ণ"
-    ferot: 159.50, // "ফেরত"
-  },
-  security: {
-    start: 161.26, // "বিনিয়োগের"
-    nirapotta: 161.80, // "নিরাপত্তার"
-    document: 163.52, // "document"
-    d1: 165.30, // "এক,"
-    d1Item: 167.76, // "চেক।"
-    d2: 168.60, // "দুই,"
-    d2Item: 171.16, // "চুক্তিপত্র।"
-    d3: 172.34, // "তিন,"
-    d3Item: 173.60, // "trade"
-    d4: 175.38, // "চার,"
-    d4Item: 176.66, // "TIN"
-    d5: 178.46, // "পাঁচ,"
-    d5Item: 179.76, // "registration"
-  },
-  address: {
-    start: 182.22, // "আমাদের"
-    joint: 183.18, // "Joint"
-    nibondhito: 184.08, // "নিবন্ধিত"
-    thikana: 186.26, // "ঠিকানা"
-    haji: 187.08, // "হাজী"
-    nichtola: 188.84, // "নিচতলা,"
-    borobari: 189.72, // "বড়বাড়ি"
-    tongi: 191.12, // "টঙ্গী,"
-    gazipur: 191.90, // "গাজীপুর।"
-  },
-};
-
 export type Timeline = typeof partA;
 
-// Last spoken word: "গাজীপুর।" at 191.90 s.
-export const lastWord = 191.90;
-export const audioDuration = 192.76; // ffprobe of public/voiceover.mp3
+// Last spoken word: "গাজীপুর" at 95.56 s.
+export const lastWord = 95.56;
+// The voiceover is cut here, in the pause (96.22–96.54 s) before the script repeats.
+export const voiceEnd = 96.3;
 export const tail = 1; // extra second after the audio

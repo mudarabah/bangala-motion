@@ -5,7 +5,7 @@
 import React from "react";
 import { Audio } from "@remotion/media";
 import { Sequence, staticFile, useVideoConfig } from "remotion";
-import { partA, partB, type Timeline } from "../data/timeline";
+import { partA, type Timeline } from "../data/timeline";
 
 export const SFX_ENABLED = true;
 
@@ -77,7 +77,7 @@ const cuesFor = (t: Timeline): Cue[] => [
 export const SoundDesign: React.FC = () => {
   const { fps } = useVideoConfig();
   if (!SFX_ENABLED) return null;
-  const cues = [...cuesFor(partA), ...cuesFor(partB)];
+  const cues = cuesFor(partA);
   return (
     <>
       {cues.map(([sec, sfx], i) => (

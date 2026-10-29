@@ -1,11 +1,11 @@
-// The whole video: background, the ten scenes for each half of the voiceover,
+// The whole video: background, the ten scenes (first telling of the voiceover only),
 // a corner logo, the end card, the voice and the sound design.
 import React from "react";
 import { Audio } from "@remotion/media";
 import { AbsoluteFill, staticFile, useVideoConfig } from "remotion";
 import { Appear, Background, Glass, LogoCard, LogoMark, Scene } from "./components/kit";
 import { SoundDesign } from "./components/SoundDesign";
-import { audioDuration, lastWord, partA, partB, tail, type Timeline } from "./data/timeline";
+import { lastWord, partA, tail, voiceEnd, type Timeline } from "./data/timeline";
 import { AddressScene } from "./scenes/AddressScene";
 import { BankScene } from "./scenes/BankScene";
 import { CompanyScene } from "./scenes/CompanyScene";
@@ -25,7 +25,7 @@ const ORDER: Key[] = ["import", "profit", "company", "transparency", "bank", "de
 const PRE = 0.4;
 // End card after the last word ("গাজীপুর") has been said.
 const END_CARD = lastWord + 0.6;
-export const TOTAL_SECONDS = audioDuration + tail;
+export const TOTAL_SECONDS = voiceEnd + tail;
 
 // Scenes that already show the logo don't get the corner badge.
 const WITH_CORNER_LOGO = new Set<Key>(["import", "profit", "transparency", "bank", "details", "payout", "principal", "security"]);
@@ -74,7 +74,7 @@ const EndCard: React.FC = () => (
 export const Video: React.FC = () => {
   const { fps } = useVideoConfig();
   const overlap = motion.transitionFrames / fps;
-  const parts = [partA, partB];
+  const parts = [partA];
 
   const scenes = parts.flatMap((t, p) =>
     ORDER.map((key, i) => {
@@ -99,7 +99,7 @@ export const Video: React.FC = () => {
           <EndCard />
         </Scene>
       </div>
-      <Audio src={staticFile("voiceover.mp3")} />
+      <Audio src={staticFile("voiceover.mp3")} trimAfter={Math.round(voiceEnd * fps)} />
       <SoundDesign />
     </AbsoluteFill>
   );
