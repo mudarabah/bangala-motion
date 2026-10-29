@@ -29,3 +29,10 @@
 ## স্কিল
 - স্টাইল আর ওয়ার্কফ্লোর জন্য `.claude/skills/motion-style-kit/` দেখবে।
 - Remotion-এর নিয়মের জন্য `.claude/skills/remotion-*` স্কিলগুলো দেখবে।
+
+## এই প্রজেক্টের ভিডিও (MudarabahInvestment)
+- স্টাইল: motion-style-kit-এর **lavender-glass** (হালকা গ্লাস, বেগুনি)। থিম: `src/theme.ts`।
+- লেআউট 1920x1080 design unit-এ লেখা, `zoom: 2` দিয়ে 3840x2160 হয় (`src/Video.tsx`)। সেফ জোন চারপাশে 80px।
+- সব টাইমিং `src/data/timeline.ts`-এ, প্রতিটা মান ট্রান্সক্রিপ্টের শব্দের শুরুর সময়। ভয়েসে স্ক্রিপ্ট দুইবার আছে, তাই `partA` আর `partB`।
+- দৃশ্য: `src/scenes/`, কমন কম্পোনেন্ট: `src/components/kit.tsx`, সাউন্ড: `src/components/SoundDesign.tsx`।
+- Do: নরম আলো, অনেক ফাঁকা জায়গা, গ্রেডিয়েন্ট শুধু কিওয়ার্ড আর বাটনে। Don't: ডার্ক ব্যাকগ্রাউন্ড, নিয়ন, বাউন্সি মোশন, পুরো বাক্যের সাবটাইটেল।
