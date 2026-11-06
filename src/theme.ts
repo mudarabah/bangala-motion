@@ -88,3 +88,78 @@ export const brandColors = {
 export const design = { width: 1920, height: 1080, zoom: 2 };
 
 export const textDepth = "drop-shadow(0 6px 18px rgba(76,29,149,0.14))";
+
+// ---------- palettes ----------
+// The shared kit (src/components/kit.tsx) reads its colours from a palette, so the
+// same components serve several styles. RGB triplets are used inside rgba().
+export type Palette = {
+  base: string;
+  ink: string;
+  inkMuted: string;
+  brand: string;
+  brand2: string;
+  keyword: string; // gradient for highlighted words
+  button: string; // gradient for pills and buttons
+  glowRgb: string; // active ring / glow
+  brandRgb: string; // outlines and button shadow
+  shadowRgb: string; // card and text depth
+  fieldA: string; // large field, top-left
+  fieldB: string; // warm field, bottom-right
+  fieldC: string; // faint field, top-right
+  hazeRgb: string; // low cloud bank along the bottom
+  lineSoft: string; // skeleton lines in UI mocks
+  lineStrong: string;
+  tintSoft: string; // row / chip background
+};
+
+export const lavenderPalette: Palette = {
+  base: colors.base,
+  ink: colors.ink,
+  inkMuted: colors.inkMuted,
+  brand: colors.brand,
+  brand2: colors.brand2,
+  keyword: gradients.keyword,
+  button: gradients.button,
+  glowRgb: "168,85,247",
+  brandRgb: "124,58,237",
+  shadowRgb: "76,29,149",
+  fieldA: "167,139,250",
+  fieldB: "253,186,140",
+  fieldC: "139,92,246",
+  hazeRgb: "230,220,253",
+  lineSoft: "#ECE6FA",
+  lineStrong: "#D8CCFB",
+  tintSoft: "rgba(246,242,255,0.9)",
+};
+
+// "green-glass": the lavender-glass look (same light glass, layout and motion) in
+// the green of the Mudarabah logo, with its orange as the warm accent.
+export const greenPalette: Palette = {
+  base: "#F7FCF8",
+  ink: "#10261A",
+  inkMuted: "#5B6F63",
+  brand: "#16A34A",
+  brand2: "#22C55E",
+  keyword: "linear-gradient(90deg, #16A34A, #0D9488)",
+  button: "linear-gradient(90deg, #16A34A, #22C55E)",
+  glowRgb: "34,197,94",
+  brandRgb: "22,163,74",
+  shadowRgb: "20,83,45",
+  fieldA: "134,239,172",
+  fieldB: "253,214,140",
+  fieldC: "45,212,191",
+  hazeRgb: "209,250,229",
+  lineSoft: "#E3F3E8",
+  lineStrong: "#BFE8CC",
+  tintSoft: "rgba(240,250,243,0.92)",
+};
+
+export const greenIconTints: Record<string, [string, string]> = {
+  ...iconTints,
+  green: ["#86EFAC", "#16A34A"],
+  teal: ["#5EEAD4", "#0D9488"],
+  orange: ["#FCD34D", "#F59E0B"],
+  lime: ["#BEF264", "#65A30D"],
+  sky: ["#7DD3FC", "#0284C7"],
+  rose: ["#FDA4AF", "#E11D48"],
+};

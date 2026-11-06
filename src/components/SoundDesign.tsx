@@ -9,11 +9,11 @@ import { partA, type Timeline } from "../data/timeline";
 
 export const SFX_ENABLED = true;
 
-type Sfx = "whoosh" | "pop" | "ding" | "stamp" | "tick";
+export type Sfx = "whoosh" | "pop" | "ding" | "stamp" | "tick";
 const VOLUME: Record<Sfx, number> = { whoosh: 0.14, pop: 0.12, ding: 0.08, stamp: 0.22, tick: 0.06 };
-type Cue = [sec: number, sfx: Sfx];
+export type Cue = [sec: number, sfx: Sfx];
 
-const ticks = (from: number, to: number): Cue[] => {
+export const ticks = (from: number, to: number): Cue[] => {
   const out: Cue[] = [];
   for (let s = from; s < to; s += 0.1) out.push([s, "tick"]);
   return out;
@@ -74,10 +74,12 @@ const cuesFor = (t: Timeline): Cue[] => [
   [t.address.gazipur, "ding"],
 ];
 
-export const SoundDesign: React.FC = () => {
+export const SoundDesign: React.FC = () => <SfxTrack cues={cuesFor(partA)} />;
+
+// Plays a list of cues; used by every video in the project.
+export const SfxTrack: React.FC<{ cues: Cue[] }> = ({ cues }) => {
   const { fps } = useVideoConfig();
   if (!SFX_ENABLED) return null;
-  const cues = cuesFor(partA);
   return (
     <>
       {cues.map(([sec, sfx], i) => (

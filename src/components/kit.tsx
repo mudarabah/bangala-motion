@@ -13,7 +13,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { colors, fonts, glass, gradients, motion, textDepth } from "../theme";
+import { colors, fonts, glass, lavenderPalette, motion, type Palette } from "../theme";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
@@ -53,6 +53,13 @@ export const useActive = (from: number, to = Infinity) => {
   const off = to === Infinity ? 1 : interpolate(frame, [f(to) - LEAD, f(to) - LEAD + 10], [1, 0], clamp);
   return Math.min(on, off);
 };
+
+// ---------- palette ----------
+
+// Colours come from the palette in context (lavender unless a style provides another).
+const PaletteCtx = createContext<Palette>(lavenderPalette);
+export const PaletteProvider = PaletteCtx.Provider;
+export const usePalette = () => useContext(PaletteCtx);
 
 // ---------- helpers ----------
 
@@ -103,10 +110,11 @@ const SceneFrame: React.FC<{ duration: number; children: React.ReactNode }> = ({
 // radial gradients are already soft and cheap to render at 4K).
 export const Background: React.FC<{ clean?: boolean }> = ({ clean }) => {
   const frame = useCurrentFrame();
+  const pal = usePalette();
   const d = (period: number, amp: number, phase = 0) => Math.sin((frame / period) * Math.PI * 2 + phase) * amp;
   const k = clean ? 0.55 : 1;
   return (
-    <AbsoluteFill style={{ backgroundColor: colors.base, overflow: "hidden" }}>
+    <AbsoluteFill style={{ backgroundColor: pal.base, overflow: "hidden" }}>
       <div
         style={{
           position: "absolute",
@@ -114,7 +122,7 @@ export const Background: React.FC<{ clean?: boolean }> = ({ clean }) => {
           height: 1300,
           left: -520 + d(600, 60),
           top: -560 + d(700, 50, 1),
-          background: `radial-gradient(closest-side, rgba(167,139,250,${0.5 * k}), rgba(167,139,250,0))`,
+          background: `radial-gradient(closest-side, rgba(${pal.fieldA},${0.5 * k}), rgba(${pal.fieldA},0))`,
         }}
       />
       <div
@@ -124,7 +132,7 @@ export const Background: React.FC<{ clean?: boolean }> = ({ clean }) => {
           height: 1200,
           right: -480 + d(650, 70, 2),
           bottom: -520 + d(560, 50, 3),
-          background: `radial-gradient(closest-side, rgba(253,186,140,${0.42 * k}), rgba(253,186,140,0))`,
+          background: `radial-gradient(closest-side, rgba(${pal.fieldB},${0.42 * k}), rgba(${pal.fieldB},0))`,
         }}
       />
       <div
@@ -134,7 +142,7 @@ export const Background: React.FC<{ clean?: boolean }> = ({ clean }) => {
           height: 900,
           right: 120 + d(800, 80, 4),
           top: -520,
-          background: `radial-gradient(closest-side, rgba(139,92,246,${0.16 * k}), rgba(139,92,246,0))`,
+          background: `radial-gradient(closest-side, rgba(${pal.fieldC},${0.16 * k}), rgba(${pal.fieldC},0))`,
         }}
       />
       <div
@@ -144,7 +152,7 @@ export const Background: React.FC<{ clean?: boolean }> = ({ clean }) => {
           right: -200,
           bottom: -260,
           height: 520,
-          background: `radial-gradient(50% 50% at 50% 50%, rgba(230,220,253,0.95), rgba(230,220,253,0))`,
+          background: `radial-gradient(50% 50% at 50% 50%, rgba(${pal.hazeRgb},0.95), rgba(${pal.hazeRgb},0))`,
         }}
       />
     </AbsoluteFill>
@@ -162,18 +170,19 @@ export const Word: React.FC<{
   style?: React.CSSProperties;
 }> = ({ text, at, grad, delay = 0, style }) => {
   const { frame, f } = useTime();
+  const pal = usePalette();
   const s = f(at) - LEAD + delay;
   const p = interpolate(frame, [s, s + motion.wordDuration], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const colour: React.CSSProperties = grad
-    ? { backgroundImage: gradients.keyword, WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }
-    : { color: colors.ink };
+    ? { backgroundImage: pal.keyword, WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }
+    : { color: pal.ink };
   return (
     <span
       style={{
         display: "inline-block",
         padding: "0.1em 0.02em",
         opacity: p,
-        filter: `blur(${(1 - p) * motion.wordBlurPx}px) ${textDepth}`,
+        filter: `blur(${(1 - p) * motion.wordBlurPx}px) drop-shadow(0 6px 18px rgba(${pal.shadowRgb},0.14))`,
         transform: `translateY(${(1 - p) * motion.wordRisePx}px)`,
         ...colour,
         ...style,
@@ -218,20 +227,23 @@ export const Label: React.FC<{ children: React.ReactNode; size?: number; muted?:
   size = 28,
   muted,
   style,
-}) => (
+}) => {
+  const pal = usePalette();
+  return (
   <div
     style={{
       fontFamily: fonts.body,
       fontWeight: 600,
       fontSize: size,
       lineHeight: 1.3,
-      color: muted ? colors.inkMuted : colors.ink,
+      color: muted ? pal.inkMuted : pal.ink,
       ...style,
     }}
   >
     {children}
   </div>
-);
+  );
+};
 
 // ---------- motion wrappers ----------
 
@@ -295,27 +307,30 @@ export const Glass: React.FC<{ active?: number; style?: React.CSSProperties; chi
   active = 0,
   style,
   children,
-}) => (
-  <div
-    style={{
-      position: "relative",
-      background: "rgba(255,255,255,0.8)",
-      border: glass.border,
-      borderRadius: glass.radius,
-      padding: glass.padding,
-      boxShadow: [
-        glass.shadow,
-        glass.outline,
-        `0 0 0 2px rgba(168,85,247,${0.7 * active})`,
-        `0 0 0 8px rgba(168,85,247,${0.12 * active})`,
-        `0 24px 60px rgba(124,58,237,${0.14 * active})`,
-      ].join(", "),
-      ...style,
-    }}
-  >
-    {children}
-  </div>
-);
+}) => {
+  const pal = usePalette();
+  return (
+    <div
+      style={{
+        position: "relative",
+        background: "rgba(255,255,255,0.8)",
+        border: glass.border,
+        borderRadius: glass.radius,
+        padding: glass.padding,
+        boxShadow: [
+          `0 24px 60px rgba(${pal.shadowRgb},0.12), 0 4px 12px rgba(${pal.shadowRgb},0.06)`,
+          `0 0 0 1px rgba(${pal.brandRgb},0.10)`,
+          `0 0 0 2px rgba(${pal.glowRgb},${0.7 * active})`,
+          `0 0 0 8px rgba(${pal.glowRgb},${0.12 * active})`,
+          `0 24px 60px rgba(${pal.brandRgb},${0.14 * active})`,
+        ].join(", "),
+        ...style,
+      }}
+    >
+      {children}
+    </div>
+  );
+};
 
 // Glossy 3D app icon: gradient tile, top light, white glyph.
 export const IconTile: React.FC<{ icon: LucideIcon; tint: [string, string]; size?: number; style?: React.CSSProperties }> = ({
@@ -357,7 +372,9 @@ export const Pill: React.FC<{ icon?: LucideIcon; size?: number; children: React.
   size = 26,
   children,
   style,
-}) => (
+}) => {
+  const pal = usePalette();
+  return (
   <div
     style={{
       display: "inline-flex",
@@ -366,19 +383,20 @@ export const Pill: React.FC<{ icon?: LucideIcon; size?: number; children: React.
       padding: `${size * 0.42}px ${size * 0.95}px`,
       borderRadius: 999,
       background: "rgba(255,255,255,0.92)",
-      boxShadow: "0 10px 30px rgba(76,29,149,0.12), 0 0 0 1px rgba(124,58,237,0.08)",
+      boxShadow: `0 10px 30px rgba(${pal.shadowRgb},0.12), 0 0 0 1px rgba(${pal.brandRgb},0.08)`,
       fontFamily: fonts.body,
       fontWeight: 600,
       fontSize: size,
-      color: colors.ink,
+      color: pal.ink,
       whiteSpace: "nowrap",
       ...style,
     }}
   >
-    {Icon ? <Icon size={size * 1.1} color={colors.brand} strokeWidth={2.4} /> : null}
-    {children}
+    {Icon ? <Icon size={size * 1.1} color={pal.brand} strokeWidth={2.4} /> : null}
+    <span>{children}</span>
   </div>
-);
+  );
+};
 
 // Violet gradient pill (buttons, key result).
 export const GradPill: React.FC<{ icon?: LucideIcon; size?: number; children: React.ReactNode; style?: React.CSSProperties }> = ({
@@ -386,7 +404,9 @@ export const GradPill: React.FC<{ icon?: LucideIcon; size?: number; children: Re
   size = 28,
   children,
   style,
-}) => (
+}) => {
+  const pal = usePalette();
+  return (
   <div
     style={{
       display: "inline-flex",
@@ -394,8 +414,8 @@ export const GradPill: React.FC<{ icon?: LucideIcon; size?: number; children: Re
       gap: size * 0.45,
       padding: `${size * 0.45}px ${size * 1.05}px`,
       borderRadius: 999,
-      background: gradients.button,
-      boxShadow: "0 14px 34px rgba(124,58,237,0.32), inset 0 1px 0 rgba(255,255,255,0.35)",
+      background: pal.button,
+      boxShadow: `0 14px 34px rgba(${pal.brandRgb},0.32), inset 0 1px 0 rgba(255,255,255,0.35)`,
       fontFamily: fonts.body,
       fontWeight: 700,
       fontSize: size,
@@ -405,9 +425,10 @@ export const GradPill: React.FC<{ icon?: LucideIcon; size?: number; children: Re
     }}
   >
     {Icon ? <Icon size={size * 1.1} color="white" strokeWidth={2.5} /> : null}
-    {children}
+    <span>{children}</span>
   </div>
-);
+  );
+};
 
 // Small round green check badge.
 export const CheckBadge: React.FC<{ size?: number; style?: React.CSSProperties }> = ({ size = 40, style }) => (

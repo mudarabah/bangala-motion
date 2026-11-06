@@ -1,16 +1,27 @@
-import { Composition } from "remotion";
+import { Composition, Folder } from "remotion";
+import { TOTAL_SECONDS_2, Video2 } from "./v2/Video2";
 import { TOTAL_SECONDS, Video } from "./Video";
 
-// 3840x2160, 30 fps (see CLAUDE.md). Length = voiceover + 1 s.
+// Every video is 3840x2160, 30 fps (see CLAUDE.md). Length = voiceover + 1 s.
 export const RemotionRoot: React.FC = () => {
   return (
-    <Composition
-      id="MudarabahInvestment"
-      component={Video}
-      durationInFrames={Math.ceil(TOTAL_SECONDS * 30)}
-      fps={30}
-      width={3840}
-      height={2160}
-    />
+    <Folder name="Mudarabah">
+      <Composition
+        id="ResellerInvest"
+        component={Video2}
+        durationInFrames={Math.ceil(TOTAL_SECONDS_2 * 30)}
+        fps={30}
+        width={3840}
+        height={2160}
+      />
+      <Composition
+        id="MudarabahInvestment"
+        component={Video}
+        durationInFrames={Math.ceil(TOTAL_SECONDS * 30)}
+        fps={30}
+        width={3840}
+        height={2160}
+      />
+    </Folder>
   );
 };
