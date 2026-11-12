@@ -102,6 +102,7 @@ export const Strike: React.FC<{ at: number; children: React.ReactNode; style?: R
           borderRadius: 6,
           background: "#EF4444",
           boxShadow: "0 4px 10px rgba(239,68,68,0.35)",
+          opacity: p > 0 ? 1 : 0,
         }}
       />
     </span>
