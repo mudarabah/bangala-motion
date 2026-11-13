@@ -6,12 +6,30 @@ import { TOTAL_SECONDS_5, Video5 } from "./v5/Video5";
 import { TOTAL_SECONDS_6, Video6 } from "./v6/Video6";
 import { TOTAL_SECONDS_7, Video7 } from "./v7/Video7";
 import { TOTAL_SECONDS_8, Video8 } from "./v8/Video8";
+import { TOTAL_SECONDS_9, Video9 } from "./v9/Video9";
+import { TOTAL_SECONDS_10, Video10 } from "./v10/Video10";
 import { TOTAL_SECONDS, Video } from "./Video";
 
 // Every video is 3840x2160, 30 fps (see CLAUDE.md). Length = voiceover + 1 s.
 export const RemotionRoot: React.FC = () => {
   return (
     <Folder name="Mudarabah">
+      <Composition
+        id="MetaPixel"
+        component={Video10}
+        durationInFrames={Math.ceil(TOTAL_SECONDS_10 * 30)}
+        fps={30}
+        width={3840}
+        height={2160}
+      />
+      <Composition
+        id="OwnHome"
+        component={Video9}
+        durationInFrames={Math.ceil(TOTAL_SECONDS_9 * 30)}
+        fps={30}
+        width={3840}
+        height={2160}
+      />
       <Composition
         id="DarkSides"
         component={Video8}
