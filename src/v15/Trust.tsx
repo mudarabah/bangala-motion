@@ -122,7 +122,7 @@ const Calm: React.FC = () => {
       <Say from={17} to={24} hi={[18, 22, 23]} size={62} style={TOP} />
       <Appear at={t(17)} style={{ position: "absolute", left: 260, top: 300 }}>
         <Glass style={{ width: 900, padding: 16 }}>
-          <img src={staticFile("products/site-mudarabah.jpg")} style={{ width: "100%", height: 520, objectFit: "cover", objectPosition: "top", borderRadius: 18 }} />
+          <img src={staticFile("products/site-mudarabah.jpg")} style={{ width: "100%", height: 520, objectFit: "cover", objectPosition: "50% 10%", borderRadius: 18 }} />
         </Glass>
       </Appear>
       <div style={{ position: "absolute", left: 1320, top: 360, display: "flex", flexDirection: "column", gap: 30 }}>

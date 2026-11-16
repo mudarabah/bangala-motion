@@ -13,12 +13,21 @@ import { TOTAL_SECONDS_12, Video12 } from "./v12/Store";
 import { TOTAL_SECONDS_13, Video13 } from "./v13/FourJobs";
 import { TOTAL_SECONDS_14, Video14 } from "./v14/PageVsSite";
 import { TOTAL_SECONDS_15, Video15 } from "./v15/Trust";
+import { TOTAL_SECONDS_16, Video16 } from "./v16/Milestone";
 import { TOTAL_SECONDS, Video } from "./Video";
 
 // Every video is 3840x2160, 30 fps (see CLAUDE.md). Length = voiceover + 1 s.
 export const RemotionRoot: React.FC = () => {
   return (
     <Folder name="Mudarabah">
+      <Composition
+        id="MilestoneOffer"
+        component={Video16}
+        durationInFrames={Math.ceil(TOTAL_SECONDS_16 * 30)}
+        fps={30}
+        width={3840}
+        height={2160}
+      />
       <Composition
         id="TrustWebsite"
         component={Video15}

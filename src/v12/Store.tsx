@@ -75,7 +75,7 @@ const Hook: S = () => (
             <div key={c} style={{ width: 16, height: 16, borderRadius: 99, background: c }} />
           ))}
         </div>
-        <img src={staticFile("products/site-mudarabah.jpg")} style={{ width: "100%", height: 420, objectFit: "cover", objectPosition: "top", borderRadius: 18 }} />
+        <img src={staticFile("products/site-mudarabah.jpg")} style={{ width: "100%", height: 420, objectFit: "cover", objectPosition: "50% 10%", borderRadius: 18 }} />
       </Glass>
     </Appear>
     <Pop at={t(3)} style={{ position: "absolute", left: 790, top: 200 }}>
