@@ -24,11 +24,11 @@ export const makeSay = (W: number[], WORDS: string[], display: Record<number, st
       if (/^[\d.,]+$/.test(text)) text = text.replace(/\d/g, (d) => BN_DIGITS[+d]);
       const latin = isLatin(text);
       if (latin && display[i] === undefined) text = cap(text);
-      // a Latin word with a Bangla ending in one token ("Pixelে", "Adও") → "Pixel|-এ", "Ad|-ও"
+      // a Latin word with a Bangla ending in one token ("Pixelে", "Adও", "inbox-এ") → "Pixel|-এ", "Ad|-ও", "Inbox|-এ"
       const mixed = latin && display[i] === undefined ? text.match(/^([A-Za-z0-9.\-]+)([\u0980-\u09FF]+)$/) : null;
       if (mixed) {
         const suffix = mixed[2].replace(/^ে/, "এ").replace(/^া/, "আ").replace(/^ি/, "ই");
-        out.push([`${mixed[1]}|-${suffix}`, W[i], hi.includes(i), true]);
+        out.push([`${mixed[1].replace(/-$/, "")}|-${suffix}`, W[i], hi.includes(i), true]);
         continue;
       }
       const next = i + 1 <= i1 ? clean(WORDS[i + 1]) : "";
