@@ -41,6 +41,15 @@ const Product: React.FC<{ src: string; size?: number }> = ({ src, size = 200 }) 
   </Glass>
 );
 
+// The bag page of a store built on the platform: its reward milestones and minimum order.
+const BagShot: React.FC<{ at: number }> = ({ at }) => (
+  <Appear at={at} style={{ position: "absolute", left: 180, top: 220 }}>
+    <Glass style={{ padding: 12, borderRadius: 46 }}>
+      <img src={staticFile("products/bag-milestone.jpg")} style={{ width: 420, height: 720, objectFit: "cover", objectPosition: "top", borderRadius: 34, display: "block" }} />
+    </Glass>
+  </Appear>
+);
+
 // ---------- 1. bringing a new customer costs ad money ----------
 
 const Hook: React.FC = () => {
@@ -78,13 +87,13 @@ const More: React.FC = () => (
     </Appear>
     <div style={{ position: "absolute", left: 640, top: 340, display: "flex", gap: 30, alignItems: "center" }}>
       <Pop at={t(11)}>
-        <Product src="products/earrings-green.jpg" size={230} />
+        <Product src="products/prod-floral.jpg" size={230} />
       </Pop>
       <Pop at={t(13)}>
         <div style={{ fontFamily: fonts.display, fontWeight: 800, fontSize: 100, color: "#16A34A" }}>+</div>
       </Pop>
       <Pop at={t(13)}>
-        <Product src="products/earrings.jpg" size={230} />
+        <Product src="products/prod-pink.jpg" size={230} />
       </Pop>
     </div>
     <Appear at={t(15)} style={{ position: "absolute", left: 1460, top: 380 }}>
@@ -124,7 +133,7 @@ const Site: React.FC = () => (
     <Wash tone="green" />
     <Appear at={t(23)} style={{ position: "absolute", left: 220, top: 200 }}>
       <Glass style={{ width: 860, padding: 16 }}>
-        <img src={staticFile("products/site-mudarabah.jpg")} style={{ width: "100%", height: 580, objectFit: "cover", objectPosition: "50% 10%", borderRadius: 18 }} />
+        <img src={staticFile("products/rk-home.jpg")} style={{ width: "100%", height: 580, objectFit: "cover", objectPosition: "top", borderRadius: 18 }} />
       </Glass>
     </Appear>
     <Say from={23} to={27} hi={[25, 26]} size={80} align="left" style={{ position: "absolute", left: 1160, top: 380, width: 660 }} />
@@ -157,8 +166,9 @@ const Bar: React.FC = () => {
     <>
       <Wash tone="violet" />
       <Say from={32} to={33} hi={[32, 33]} size={78} style={TOP} />
-      <Appear at={t(32)} style={{ position: "absolute", left: 260, top: 330 }}>
-        <Glass style={{ width: 1400, padding: "50px 60px", display: "flex", flexDirection: "column", gap: 40 }}>
+      <BagShot at={t(32)} />
+      <Appear at={t(32)} style={{ position: "absolute", left: 700, top: 380 }}>
+        <Glass style={{ width: 1060, padding: "50px 50px", display: "flex", flexDirection: "column", gap: 40 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 26 }}>
             <IconTile icon={ShoppingCart} tint={C.blue} size={90} />
             <div style={{ position: "relative", flex: 1, height: 44, borderRadius: 999, background: "rgba(226,232,240,0.9)" }}>
@@ -173,7 +183,7 @@ const Bar: React.FC = () => {
           </div>
         </Glass>
       </Appear>
-      <Pop at={t(38)} style={{ position: "absolute", left: 1600, top: 270 }}>
+      <Pop at={t(38)} style={{ position: "absolute", left: 1700, top: 330 }}>
         <CheckBadge size={90} />
       </Pop>
     </>
@@ -193,7 +203,7 @@ const Cart: React.FC = () => {
       </Appear>
       <div style={{ position: "absolute", left: 760 + 420 * drop, top: 330 + 120 * drop, transform: `scale(${1 - 0.5 * drop})`, opacity: drop < 1 ? 1 : 0 }}>
         <Appear at={t(40)}>
-          <Product src="products/earrings-green.jpg" size={200} />
+          <Product src="products/prod-brooch.jpg" size={200} />
         </Appear>
       </div>
       <Appear at={t(41)} style={{ position: "absolute", left: 1200, top: 360 }}>
@@ -243,8 +253,9 @@ const Minimum: React.FC = () => {
     <>
       <Wash tone="teal" />
       <Say from={51} to={55} hi={[51, 52]} size={78} style={TOP} />
-      <Appear at={t(51)} style={{ position: "absolute", left: 360, top: 360 }}>
-        <Glass style={{ width: 1200, padding: "60px 70px", display: "flex", alignItems: "center", gap: 40 }}>
+      <BagShot at={t(51)} />
+      <Appear at={t(51)} style={{ position: "absolute", left: 700, top: 440 }}>
+        <Glass style={{ width: 1060, padding: "60px 60px", display: "flex", alignItems: "center", gap: 40 }}>
           <IconTile icon={ShoppingCart} tint={C.teal} size={110} />
           <div style={{ position: "relative", flex: 1, height: 20, borderRadius: 999, background: "rgba(204,251,241,0.9)" }}>
             <div style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: `${15 + 45 * slide}%`, borderRadius: 999, background: "linear-gradient(90deg, #5EEAD4, #0D9488)" }} />

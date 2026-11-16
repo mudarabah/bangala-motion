@@ -70,7 +70,7 @@ const Hook: React.FC = () => (
     <Wash tone="blue" />
     <Appear at={t(0)} style={{ position: "absolute", left: 200, top: 190 }}>
       <Glass style={{ width: 640, padding: 16 }}>
-        <img src={staticFile("products/fb-page.jpg")} style={{ width: "100%", height: 600, objectFit: "cover", objectPosition: "top", borderRadius: 20 }} />
+        <img src={staticFile("products/farha-fb.jpg")} style={{ width: "100%", height: 600, objectFit: "cover", objectPosition: "top", borderRadius: 20 }} />
       </Glass>
     </Appear>
     <div style={{ position: "absolute", left: 960, top: 230, display: "flex", flexDirection: "column", gap: 24 }}>
@@ -218,7 +218,7 @@ const Split: React.FC = () => (
     <div style={{ position: "absolute", left: 0, right: 0, top: 230, display: "flex", justifyContent: "center", alignItems: "center", gap: 50 }}>
       <Appear at={t(52)}>
         <Card w={680} h={560}>
-          <img src={staticFile("products/fb-page.jpg")} style={{ width: 560, height: 240, objectFit: "cover", objectPosition: "top", borderRadius: 18 }} />
+          <img src={staticFile("products/jk-fb.jpg")} style={{ width: 560, height: 240, objectFit: "cover", objectPosition: "top", borderRadius: 18 }} />
           <IconTile icon={Users} tint={C.blue} size={90} />
           <Say from={52} to={56} hi={[54]} size={50} />
         </Card>
@@ -228,7 +228,7 @@ const Split: React.FC = () => (
       </Appear>
       <Appear at={t(57)}>
         <Card w={680} h={560} active={1}>
-          <img src={staticFile("products/site-mudarabah-card.jpg")} style={{ width: 560, height: 240, objectFit: "cover", objectPosition: "top", borderRadius: 18 }} />
+          <img src={staticFile("products/rk-home.jpg")} style={{ width: 560, height: 240, objectFit: "cover", objectPosition: "top", borderRadius: 18 }} />
           <IconTile icon={Globe} tint={C.green} size={90} />
           <Say from={57} to={61} hi={[60, 61]} size={50} />
         </Card>
@@ -260,7 +260,7 @@ const ProductPage: React.FC = () => (
     <Say from={67} to={74} hi={[69, 70, 72]} size={58} style={TOP} />
     <Appear at={t(67)} style={{ position: "absolute", left: 260, top: 250 }}>
       <Glass style={{ width: 900, height: 620, padding: 26, display: "flex", gap: 30 }}>
-        <img src={staticFile("products/earrings-green.jpg")} style={{ width: 420, height: "100%", objectFit: "cover", borderRadius: 20 }} />
+        <img src={staticFile("products/prod-floral.jpg")} style={{ width: 420, height: "100%", objectFit: "cover", borderRadius: 20 }} />
         <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 24, paddingTop: 20 }}>
           <Skel w={300} strong />
           <Pop at={t(70)}>

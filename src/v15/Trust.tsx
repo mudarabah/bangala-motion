@@ -35,7 +35,7 @@ const GreenPill: React.FC<{ from: number; to: number; size?: number; sweepAt: nu
 const ProductPage: React.FC<{ w: number; img: number; price: number; ship: number; button?: number }> = ({ w, img, price, ship, button }) => (
   <Glass style={{ width: w, padding: 22, display: "flex", gap: 26 }}>
     <Appear at={img} rise={0}>
-      <img src={staticFile("products/earrings-green.jpg")} style={{ width: w * 0.44, height: w * 0.52, objectFit: "cover", borderRadius: 18 }} />
+      <img src={staticFile("products/prod-floral.jpg")} style={{ width: w * 0.44, height: w * 0.52, objectFit: "cover", borderRadius: 18 }} />
     </Appear>
     <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 20, paddingTop: 14 }}>
       <Skel w={w * 0.34} strong />
@@ -68,7 +68,7 @@ const Hook: React.FC = () => {
       <Wash tone="amber" />
       <Appear at={t(0)} style={{ position: "absolute", left: 220, top: 200 }}>
         <Glass style={{ width: 620, padding: 16 }}>
-          <img src={staticFile("products/fb-page.jpg")} style={{ width: "100%", height: 560, objectFit: "cover", objectPosition: "top", borderRadius: 20 }} />
+          <img src={staticFile("products/farha-fb.jpg")} style={{ width: "100%", height: 560, objectFit: "cover", objectPosition: "top", borderRadius: 20 }} />
         </Glass>
       </Appear>
       <Appear at={t(6)} style={{ position: "absolute", left: 1040, top: 260 }}>
@@ -122,7 +122,7 @@ const Calm: React.FC = () => {
       <Say from={17} to={24} hi={[18, 22, 23]} size={62} style={TOP} />
       <Appear at={t(17)} style={{ position: "absolute", left: 260, top: 300 }}>
         <Glass style={{ width: 900, padding: 16 }}>
-          <img src={staticFile("products/site-mudarabah.jpg")} style={{ width: "100%", height: 520, objectFit: "cover", objectPosition: "50% 10%", borderRadius: 18 }} />
+          <img src={staticFile("products/rk-home.jpg")} style={{ width: "100%", height: 520, objectFit: "cover", objectPosition: "top", borderRadius: 18 }} />
         </Glass>
       </Appear>
       <div style={{ position: "absolute", left: 1320, top: 360, display: "flex", flexDirection: "column", gap: 30 }}>
@@ -225,7 +225,7 @@ const Theme: React.FC = () => {
           <div style={{ flex: 1, display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 16 }}>
             {[0, 1, 2].map((i) => (
               <div key={i} style={{ borderRadius: 16, overflow: "hidden", background: "rgba(248,250,252,0.95)", display: "flex", flexDirection: "column" }}>
-                <img src={staticFile(i === 1 ? "products/earrings.jpg" : "products/earrings-green.jpg")} style={{ width: "100%", height: 250, objectFit: "cover" }} />
+                <img src={staticFile(["products/prod-floral.jpg", "products/prod-brooch.jpg", "products/prod-pink.jpg"][i])} style={{ width: "100%", height: 250, objectFit: "cover" }} />
                 <div style={{ padding: 14, display: "flex", flexDirection: "column", gap: 10 }}>
                   <Skel w={160} strong />
                   <div style={{ width: 90, height: 30, borderRadius: 9, background: themes[k][1], opacity: 0.85 }} />

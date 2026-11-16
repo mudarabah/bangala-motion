@@ -37,6 +37,8 @@ import { audioDuration, SCENE_START, tail, W, WORDS, type SceneKey } from "./tim
 
 // The voice says "mudarabahtradelimited.com"; the store's address in the post is mudarabahtradeltd.com.
 const { t, Say } = makeSay(W, WORDS, { 145: "" });
+// Real product photos from a store built on the platform.
+const PRODUCTS = ["prod-floral.jpg", "prod-brooch.jpg", "prod-pink.jpg", "prod-bows.jpg"];
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 type S = React.FC;
 
@@ -48,11 +50,7 @@ export const OrderPhone: React.FC<{ tapAt: number; width?: number }> = ({ tapAt,
   return (
     <Glass style={{ width, height: width * 1.9, padding: 12, borderRadius: 50 }}>
       <div style={{ position: "relative", width: "100%", height: "100%", borderRadius: 38, overflow: "hidden", background: "white" }}>
-        <img src={staticFile("products/site-mudarabah-card.jpg")} style={{ width: "100%", height: "70%", objectFit: "cover", objectPosition: "top" }} />
-        <div style={{ padding: "14px 18px", display: "flex", flexDirection: "column", gap: 10 }}>
-          <Skel w={180} strong />
-          <Skel w={120} />
-        </div>
+        <img src={staticFile("products/card-floral.jpg")} style={{ width: "100%", display: "block" }} />
         <div style={{ position: "absolute", left: 18, right: 18, bottom: 22, height: 70, borderRadius: 35, background: "linear-gradient(90deg, #7C3AED, #4F46E5)", display: "flex", alignItems: "center", justifyContent: "center", gap: 12, transform: `scale(${press})`, boxShadow: "0 10px 24px rgba(79,70,229,0.35)" }}>
           <ShoppingCart size={34} color="white" strokeWidth={2.4} />
           <span style={{ fontFamily: fonts.ui, fontWeight: 700, fontSize: 28, color: "white" }}>Order</span>
@@ -75,7 +73,7 @@ const Hook: S = () => (
             <div key={c} style={{ width: 16, height: 16, borderRadius: 99, background: c }} />
           ))}
         </div>
-        <img src={staticFile("products/site-mudarabah.jpg")} style={{ width: "100%", height: 420, objectFit: "cover", objectPosition: "50% 10%", borderRadius: 18 }} />
+        <img src={staticFile("products/rk-home.jpg")} style={{ width: "100%", height: 420, objectFit: "cover", objectPosition: "top", borderRadius: 18 }} />
       </Glass>
     </Appear>
     <Pop at={t(3)} style={{ position: "absolute", left: 790, top: 200 }}>
@@ -311,7 +309,7 @@ const F3: S = () => (
         <Glass style={{ width: 600, padding: 24, display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 14 }}>
           {Array.from({ length: 6 }).map((_, i) => (
             <div key={i} style={{ height: 130, borderRadius: 14, overflow: "hidden", background: "rgba(239,246,255,0.95)" }}>
-              {i === 0 ? <img src={staticFile("products/earrings-green.jpg")} style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : null}
+              {i < 4 ? <img src={staticFile(`products/${PRODUCTS[i]}`)} style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : null}
             </div>
           ))}
         </Glass>
@@ -325,7 +323,7 @@ const F3: S = () => (
             <div style={{ width: 36, height: 36, borderRadius: 99, background: "linear-gradient(160deg, #93C5FD, #2563EB)" }} />
             <Skel w={140} strong />
           </div>
-          <img src={staticFile("products/earrings-green.jpg")} style={{ width: "100%", height: 260, objectFit: "cover", borderRadius: 14 }} />
+          <img src={staticFile("products/prod-floral.jpg")} style={{ width: "100%", height: 260, objectFit: "cover", borderRadius: 14 }} />
         </Glass>
       </Appear>
     </div>
@@ -365,7 +363,7 @@ const F5: S = () => (
     <Appear at={t(109)} style={{ position: "absolute", left: 260, top: 330 }}>
       <Glass style={{ width: 520, height: 420, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 20 }}>
         <IconTile icon={Upload} tint={C.pink} size={150} />
-        <img src={staticFile("products/earrings-green.jpg")} style={{ width: 200, height: 140, objectFit: "cover", borderRadius: 16 }} />
+        <img src={staticFile("products/prod-brooch.jpg")} style={{ width: 200, height: 140, objectFit: "cover", borderRadius: 16 }} />
       </Glass>
     </Appear>
     <Appear at={t(113)} style={{ position: "absolute", left: 960, top: 380 }}>
