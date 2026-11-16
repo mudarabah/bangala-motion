@@ -41,7 +41,7 @@ const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 type S = React.FC;
 
 // A phone with an order screen; `tap` animates the order button being pressed.
-const OrderPhone: React.FC<{ tapAt: number; width?: number }> = ({ tapAt, width = 340 }) => {
+export const OrderPhone: React.FC<{ tapAt: number; width?: number }> = ({ tapAt, width = 340 }) => {
   const { frame, f } = useTime();
   const r = interpolate(frame, [f(tapAt), f(tapAt) + 16], [0, 1], clamp);
   const press = interpolate(frame, [f(tapAt), f(tapAt) + 4, f(tapAt) + 10], [1, 0.93, 1], clamp);
