@@ -43,65 +43,19 @@ import { Skel, Strike } from "../v2/ui";
 import { Sweep } from "../v4/parts";
 import { makeSay } from "../v11/sayf";
 import { C, Wash } from "../v11/ui";
+import { BERRY, CAKES, CHOC, Card, Corner, LOGO, MishtioCard, PINK, Photo, PinkBox, cake } from "../mishtio/kit";
 import { audioDuration, SCENE_START, tail, W, WORDS, type SceneKey } from "./timeline";
 
 // Words 240–242 ("শুধু live হলে") are a stage note read aloud by the voice; they are hidden on screen.
 const { t, Say } = makeSay(W, WORDS, { 240: "", 241: "", 242: "" });
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const TOP: React.CSSProperties = { position: "absolute", left: 120, right: 120, top: 110 };
-const PINK: [string, string] = ["#F9A8D4", "#E11D74"];
-const BERRY: [string, string] = ["#F0ABFC", "#A21CAF"];
-const CHOC: [string, string] = ["#D6A88A", "#7C3A1D"];
-
-const cake = (name: string) => staticFile(`products/cakes/${name}.jpg`);
-const CAKES = {
-  drip: "cake-white-choco-drip",
-  forest: "cake-black-forest",
-  sparkle: "cake-sparkler-orange",
-  straw: "cake-strawberry-naked",
-  cup: "cupcake-strawberry",
-  candles: "cake-choco-candles-dark",
-  lilac: "cake-lilac-blackberry",
-  slice: "cake-choco-slice",
-  bday: "cake-birthday-candles",
-};
-
-// ---------- shared pieces ----------
-
-const Card: React.FC<{ w?: number; h?: number; active?: number; children: React.ReactNode; style?: React.CSSProperties }> = ({ w = 320, h = 300, active, children, style }) => (
-  <Glass active={active} style={{ width: w, height: h, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 18, position: "relative", ...style }}>
-    {children}
-  </Glass>
-);
-
-// A cake photo in a glass frame.
-const Photo: React.FC<{ src: string; w: number; h: number; pos?: string; style?: React.CSSProperties }> = ({ src, w, h, pos = "center", style }) => (
-  <Glass style={{ padding: 10, borderRadius: 32, ...style }}>
-    <img src={cake(src)} style={{ width: w, height: h, objectFit: "cover", objectPosition: pos, borderRadius: 24, display: "block" }} />
-  </Glass>
-);
-
-// The Mishtio logo on a white glass card (trimmed logo is 1006x950).
-const MishtioCard: React.FC<{ w: number }> = ({ w }) => (
-  <Glass style={{ padding: 18, borderRadius: 36, background: "rgba(255,255,255,0.97)" }}>
-    <img src={staticFile("brand/mishtio-logo-trim.png")} style={{ width: w, height: (w * 950) / 1006, display: "block", mixBlendMode: "multiply" }} />
-  </Glass>
-);
-
-const Corner: React.FC<{ at: number }> = ({ at }) => (
-  <Appear at={at} rise={0} style={{ position: "absolute", right: 60, top: 30 }}>
-    <Glass style={{ padding: "6px 10px", borderRadius: 22, background: "rgba(255,255,255,0.95)" }}>
-      <img src={staticFile("brand/mishtio-logo-trim.png")} style={{ width: 96, height: 91, display: "block", mixBlendMode: "multiply" }} />
-    </Glass>
-  </Appear>
-);
-
 // Pink pill holding white spoken words.
 const PinkPill: React.FC<{ from: number; to: number; size?: number; sweepAt?: number }> = ({ from, to, size = 64, sweepAt }) => (
-  <div style={{ position: "relative", padding: "22px 54px", borderRadius: 999, background: "linear-gradient(90deg, #E11D74, #F472B6)", boxShadow: "0 18px 40px rgba(225,29,116,0.32)", overflow: "hidden" }}>
+  <PinkBox>
     <Say from={from} to={to} size={size} style={{ filter: "brightness(0) invert(1)" }} />
     {sweepAt !== undefined ? <Sweep from={sweepAt} to={sweepAt + 1} /> : null}
-  </div>
+  </PinkBox>
 );
 
 // Feature title: icon tile + spoken feature name, top-left.
@@ -593,7 +547,7 @@ const Catalog: React.FC = () => {
         <Glass style={{ padding: 14, borderRadius: 50 }}>
           <div style={{ width: 400, height: 700, borderRadius: 38, background: "white", overflow: "hidden", display: "flex", flexDirection: "column" }}>
             <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "16px 18px", borderBottom: "2px solid #FBE4EF" }}>
-              <img src={staticFile("brand/mishtio-logo-trim.png")} style={{ width: 48, height: 45 }} />
+              <img src={LOGO} style={{ width: 48, height: 45 }} />
               <Skel w={140} strong />
             </div>
             <div style={{ padding: 14, display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
@@ -638,7 +592,7 @@ const Price: React.FC = () => (
         <Appear at={t(201)} style={{ alignSelf: "flex-end" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 14, padding: "16px 24px", borderRadius: 28, borderBottomRightRadius: 8, background: "rgba(252,231,243,0.98)" }}>
             <Link2 size={40} color="#E11D74" strokeWidth={2.5} />
-            <img src={staticFile("brand/mishtio-logo-trim.png")} style={{ width: 54, height: 51 }} />
+            <img src={LOGO} style={{ width: 54, height: 51 }} />
             <div style={{ width: 200, height: 16, borderRadius: 9, background: "#F472B6" }} />
           </div>
         </Appear>
