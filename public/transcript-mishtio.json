@@ -1,0 +1,3382 @@
+{
+  "language_code": null,
+  "segments": [
+    {
+      "text": "Cake \u09ac\u09be\u09a8\u09be\u09a8\u09cb \u0986\u09aa\u09a8\u09be\u09b0 \u0995\u09be\u099c\u0964 \u09ac\u09be\u0995\u09bf \u099d\u09be\u09ae\u09c7\u09b2\u09be \u09b8\u09be\u09ae\u09b2\u09be\u09ac\u09c7 \u09ae\u09bf\u09b7\u09cd\u099f\u09bf\u0993\u0964 ",
+      "start_time": 0.14,
+      "end_time": 3.94,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Cake",
+          "start_time": 0.14,
+          "end_time": 0.38
+        },
+        {
+          "text": " ",
+          "start_time": 0.38,
+          "end_time": 0.44
+        },
+        {
+          "text": "\u09ac\u09be\u09a8\u09be\u09a8\u09cb",
+          "start_time": 0.44,
+          "end_time": 0.76
+        },
+        {
+          "text": " ",
+          "start_time": 0.76,
+          "end_time": 0.78
+        },
+        {
+          "text": "\u0986\u09aa\u09a8\u09be\u09b0",
+          "start_time": 0.86,
+          "end_time": 1.16
+        },
+        {
+          "text": " ",
+          "start_time": 1.16,
+          "end_time": 1.2
+        },
+        {
+          "text": "\u0995\u09be\u099c\u0964",
+          "start_time": 1.2,
+          "end_time": 2.0
+        },
+        {
+          "text": " ",
+          "start_time": 2.0,
+          "end_time": 2.08
+        },
+        {
+          "text": "\u09ac\u09be\u0995\u09bf",
+          "start_time": 2.08,
+          "end_time": 2.4
+        },
+        {
+          "text": " ",
+          "start_time": 2.4,
+          "end_time": 2.44
+        },
+        {
+          "text": "\u099d\u09be\u09ae\u09c7\u09b2\u09be",
+          "start_time": 2.44,
+          "end_time": 2.74
+        },
+        {
+          "text": " ",
+          "start_time": 2.74,
+          "end_time": 2.8
+        },
+        {
+          "text": "\u09b8\u09be\u09ae\u09b2\u09be\u09ac\u09c7",
+          "start_time": 2.8,
+          "end_time": 3.34
+        },
+        {
+          "text": " ",
+          "start_time": 3.34,
+          "end_time": 3.48
+        },
+        {
+          "text": "\u09ae\u09bf\u09b7\u09cd\u099f\u09bf\u0993\u0964",
+          "start_time": 3.48,
+          "end_time": 3.94
+        },
+        {
+          "text": " ",
+          "start_time": 3.94,
+          "end_time": 3.94
+        }
+      ]
+    },
+    {
+      "text": "\u098f\u0995\u099c\u09a8 cake \u0989\u09a6\u09cd\u09af\u09cb\u0995\u09cd\u09a4\u09be\u09b0 \u09a6\u09bf\u09a8 \u0995\u09c7\u09ae\u09a8 \u09af\u09be\u09af\u09bc? \u09b8\u0995\u09be\u09b2\u09c7 inbox-\u098f order, \u09a6\u09c1\u09aa\u09c1\u09b0\u09c7 baking, \u09ac\u09bf\u0995\u09c7\u09b2\u09c7 delivery tension, \u09b0\u09be\u09a4\u09c7 \u0996\u09be\u09a4\u09be \u0996\u09c1\u09b2\u09c7 \u09b9\u09bf\u09b8\u09be\u09ac \u09ae\u09c7\u09b2\u09be\u09a8\u09cb\u0964 \u0986\u09b0 \u09a4\u09be\u09b0 \u09ae\u09a7\u09cd\u09af\u09c7\u0987 \u0995\u09cb\u09a8\u09cb order \u09ad\u09c1\u09b2\u09c7 \u09af\u09be\u0993\u09af\u09bc\u09be\u09b0 \u09ad\u09af\u09bc\u0964 \u098f\u0987 \u09b8\u09ac \u0995\u09be\u099c \u09af\u09a6\u09bf \u098f\u0995 \u099c\u09be\u09af\u09bc\u0997\u09be \u09a5\u09c7\u0995\u09c7\u0987 \u0997\u09c1\u099b\u09bf\u09af\u09bc\u09c7 \u0995\u09b0\u09be \u09af\u09c7\u09a4\u0964 \u09ae\u09bf\u09b7\u09cd\u099f\u09bf\u0993\u09a4\u09c7 \u09aa\u09cd\u09b0\u09a4\u09bf\u099f\u09be feature \u0986\u09aa\u09a8\u09be\u09b0 \u0995\u09c0 \u0995\u09be\u099c\u09c7 \u09b2\u09be\u0997\u09ac\u09c7? Order management, Messenger, WhatsApp, phone \u09af\u09c7\u0996\u09be\u09a8 \u09a5\u09c7\u0995\u09c7\u0987 order \u0986\u09b8\u09c1\u0995 \u09b8\u09ac \u098f\u0995 \u09a4\u09be\u09b2\u09bf\u0995\u09be\u09af\u09bc \u09a5\u09be\u0995\u09ac\u09c7\u0964 \u0995\u09cb\u09a8 order pending, \u0995\u09cb\u09a8\u099f\u09be \u09ac\u09be\u09a8\u09be\u09a8\u09cb \u09b9\u099a\u09cd\u099b\u09c7, \u0995\u09cb\u09a8\u099f\u09be delivery \u09b9\u09af\u09bc\u09c7 \u0997\u09c7\u099b\u09c7 \u098f\u0995 \u09a8\u099c\u09b0\u09c7 \u09a6\u09c7\u0996\u09be \u09af\u09be\u09ac\u09c7\u0964 \u0995\u09cb\u09a8 order \u09b9\u09be\u09b0\u09bf\u09af\u09bc\u09c7 \u09af\u09be\u0993\u09af\u09bc\u09be\u09b0 \u09ad\u09af\u09bc \u09a5\u09be\u0995\u09ac\u09c7 \u09a8\u09be\u0964 Delivery schedule, \u0986\u099c, \u0995\u09be\u09b2 \u09ac\u09be \u0986\u0997\u09be\u09ae\u09c0 \u09b8\u09aa\u09cd\u09a4\u09be\u09b9\u09c7 \u0995\u09cb\u09a8 cake \u0995\u09cb\u09a5\u09be\u09af\u09bc \u09af\u09be\u09ac\u09c7 \u0986\u0997\u09c7 \u09a5\u09c7\u0995\u09c7\u0987 \u099c\u09be\u09a8\u09be \u09a5\u09be\u0995\u09ac\u09c7\u0964 \u099c\u09a8\u09cd\u09ae\u09a6\u09bf\u09a8 \u09ac\u09be \u09ac\u09bf\u09af\u09bc\u09c7\u09b0 \u09ae\u09a4\u09cb \u09ac\u09a1\u09bc order\u09c7\u09b0 \u09aa\u09cd\u09b0\u09b8\u09cd\u09a4\u09c1\u09a4\u09bf \u09a8\u09c7\u0993\u09af\u09bc\u09be \u09af\u09be\u09ac\u09c7 \u09b8\u09ae\u09af\u09bc \u09a8\u09bf\u09af\u09bc\u09c7\u0964 \u09b8\u09ae\u09af\u09bc\u09ae\u09a4\u09cb delivery \u09b9\u09b2\u09c7 customer\u09c7\u09b0 \u0986\u09b8\u09cd\u09a5\u09be\u0993 \u09ac\u09be\u09a1\u09bc\u09ac\u09c7\u0964 Customer management, \u09aa\u09cd\u09b0\u09a4\u09bf\u099f\u09be customer\u09c7\u09b0 \u09a8\u09be\u09ae, \u09a8\u09ae\u09cd\u09ac\u09b0, \u09a0\u09bf\u0995\u09be\u09a8\u09be \u0986\u09b0 \u0986\u0997\u09c7\u09b0 order \u09b8\u0982\u09b0\u0995\u09cd\u09b7\u09bf\u09a4 \u09a5\u09be\u0995\u09ac\u09c7\u0964 \u0986\u09aa\u09c1 \u0997\u09a4\u09ac\u09be\u09b0\u09c7\u09b0 \u09ae\u09a4\u09cb\u0987 cake\u099f\u09be \u09a6\u09bf\u09a8 \u09ac\u09b2\u09b2\u09c7 \u0996\u09c1\u0981\u099c\u09a4\u09c7 \u09b9\u09ac\u09c7 \u09a8\u09be, \u09b8\u09be\u09a5\u09c7 \u09b8\u09be\u09a5\u09c7 \u09aa\u09c7\u09af\u09bc\u09c7 \u09af\u09be\u09ac\u09c7\u09a8\u0964 \u09aa\u09c1\u09b0\u09a8\u09cb customer\u09a6\u09c7\u09b0 \u09ac\u09bf\u09b6\u09c7\u09b7 \u09a6\u09bf\u09a8\u09c7 offer \u09aa\u09be\u09a0\u09bf\u09af\u09bc\u09c7 \u09ac\u09be\u09b0\u09ac\u09be\u09b0 order \u09aa\u09be\u09ac\u09c7\u09a8\u0964 Cake \u0993 product management, \u09b8\u09ac cake, flavor, size \u0986\u09b0 \u09a6\u09be\u09ae \u0997\u09c1\u099b\u09bf\u09af\u09bc\u09c7 \u09b0\u09be\u0996\u09be \u09af\u09be\u09ac\u09c7\u0964 \u09a8\u09a4\u09c1\u09a8 cake \u09af\u09cb\u0997 \u0995\u09b0\u09be \u09ac\u09be \u09a6\u09be\u09ae \u09ac\u09a6\u09b2\u09be\u09a8\u09cb \u09af\u09be\u09ac\u09c7 \u0995\u09af\u09bc\u09c7\u0995 \u09b8\u09c7\u0995\u09c7\u09a8\u09cd\u09a1\u09c7\u0964 Customer\u0995\u09c7 \u09a6\u09be\u09ae \u09ac\u09b2\u09a4\u09c7 \u0997\u09bf\u09af\u09bc\u09c7 \u0986\u09b0 \u0997\u09c1\u09b2\u09bf\u09af\u09bc\u09c7 \u09af\u09be\u09ac\u09c7 \u09a8\u09be\u0964 Digital catalog, \u098f\u0995 link-\u098f\u0987 \u0986\u09aa\u09a8\u09be\u09b0 \u09b8\u09ac cake\u09c7\u09b0 \u099b\u09ac\u09bf, \u09a6\u09be\u09ae \u0993 flavor \u09a6\u09c7\u0996\u09be\u09a8\u09cb \u09af\u09be\u09ac\u09c7\u0964 \u09a6\u09be\u09ae \u0995\u09a4? \u09aa\u09cd\u09b0\u09b6\u09cd\u09a8\u09c7\u09b0 \u0989\u09a4\u09cd\u09a4\u09b0\u09c7 \u09b6\u09c1\u09a7\u09c1 link\u099f\u09be \u09aa\u09be\u09a0\u09be\u09b2\u09c7\u0987 \u09b9\u09ac\u09c7\u0964 \u0986\u09aa\u09a8\u09be\u09b0 page \u09a6\u09c7\u0996\u09be\u09ac\u09c7 \u098f\u0995\u099f\u09be professional cake brand\u09c7\u09b0 \u09ae\u09a4\u09cb\u0964 \u0986\u09af\u09bc \u09ac\u09cd\u09af\u09af\u09bc\u09c7\u09b0 \u09b9\u09bf\u09b8\u09be\u09ac, \u09ae\u09af\u09bc\u09a6\u09be, cream, box, delivery \u09b8\u09ac \u0996\u09b0\u099a \u09b2\u09bf\u0996\u09c7 \u09b0\u09be\u0996\u09be \u09af\u09be\u09ac\u09c7\u0964 \u0996\u09be\u09a4\u09be \u09b9\u09be\u09b0\u09be\u09a8\u09cb \u09ac\u09be \u09b9\u09bf\u09b8\u09be\u09ac \u09ae\u09c7\u09b2\u09be\u09a4\u09c7 \u09b0\u09be\u09a4 \u099c\u09be\u0997\u09be\u09b0 \u09a6\u09bf\u09a8 \u09b6\u09c7\u09b7\u0964 \u099f\u09be\u0995\u09be \u0995\u09cb\u09a5\u09be\u09af\u09bc \u09af\u09be\u099a\u09cd\u099b\u09c7 \u09b8\u09ac \u09b8\u09ae\u09af\u09bc \u09aa\u09b0\u09bf\u09b7\u09cd\u0995\u09be\u09b0 \u09a5\u09be\u0995\u09ac\u09c7\u0964 \u09b6\u09c1\u09a7\u09c1 live \u09b9\u09b2\u09c7 \u09ac\u09bf\u0995\u09cd\u09b0\u09bf \u0993 \u09b2\u09be\u09ad\u09c7\u09b0 report, \u09a6\u09bf\u09a8, \u09b8\u09aa\u09cd\u09a4\u09be\u09b9 \u09ac\u09be \u09ae\u09be\u09b8 \u09b6\u09c7\u09b7\u09c7 \u0995\u09a4 \u09ac\u09bf\u0995\u09cd\u09b0\u09bf \u09b9\u09b2\u09cb \u0986\u09b0 \u09b2\u09be\u09ad \u0995\u09a4 \u09a5\u09be\u0995\u09b2\u09cb \u09a6\u09c7\u0996\u09c7 \u09a8\u09bf\u09a8\u0964 \u0995\u09cb\u09a8 cake \u09b8\u09ac\u099a\u09c7\u09af\u09bc\u09c7 \u09ac\u09c7\u09b6\u09bf \u099a\u09b2\u099b\u09c7 \u09ac\u09c1\u099d\u09c7 \u09b8\u09c7\u09a6\u09bf\u0995\u09c7 \u09ac\u09c7\u09b6\u09bf \u09ae\u09a8\u09cb\u09af\u09cb\u0997 \u09a6\u09bf\u09a4\u09c7 \u09aa\u09be\u09b0\u09ac\u09c7\u09a8\u0964 \u0985\u09a8\u09c1\u09ae\u09be\u09a8 \u09a8\u09be \u09b8\u09a0\u09bf\u0995 \u09a4\u09a5\u09cd\u09af \u09a6\u09c7\u0996\u09c7 \u09ac\u09cd\u09af\u09ac\u09b8\u09be\u09b0 \u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4 \u09a8\u09c7\u09ac\u09c7\u09a8\u0964 \u0996\u09be\u09a4\u09be, notepad, gallery \u0986\u09b0 Messenger-\u098f \u099b\u09a1\u09bc\u09bf\u09af\u09bc\u09c7 \u09a5\u09be\u0995\u09be \u09b8\u09ac \u0995\u09be\u099c \u098f\u0996\u09a8 \u098f\u0995 \u099c\u09be\u09af\u09bc\u0997\u09be\u09af\u09bc\u0964 \u0986\u09aa\u09a8\u09be\u09b0 \u09b8\u09ae\u09af\u09bc \u09ac\u09be\u0981\u099a\u09ac\u09c7, \u09ad\u09c1\u09b2 \u0995\u09ae\u09ac\u09c7 \u0986\u09b0 cake \u09ac\u09be\u09a8\u09be\u09a8\u09cb\u09af\u09bc \u0986\u09b0\u0993 \u09ac\u09c7\u09b6\u09bf \u09ae\u09a8 \u09a6\u09bf\u09a4\u09c7 \u09aa\u09be\u09b0\u09ac\u09c7\u09a8\u0964 \u0986\u09aa\u09a8\u09be\u09b0 \u09b2\u0995\u09cd\u09b7\u09cd\u09af \u09b6\u09c1\u09a7\u09c1 cake \u09ac\u09bf\u0995\u09cd\u09b0\u09bf \u0995\u09b0\u09be \u09a8\u09be, \u09a8\u09bf\u099c\u09c7\u09b0 \u098f\u0995\u099f\u09be \u09b8\u09ab\u09b2 cake brand \u0997\u09a1\u09bc\u09c7 \u09a4\u09cb\u09b2\u09be\u0964 \u09ac\u09bf\u09b8\u09cd\u09a4\u09be\u09b0\u09bf\u09a4 \u099c\u09be\u09a8\u09a4\u09c7 comment-\u098f \u09b2\u09bf\u0996\u09c1\u09a8 \u09ae\u09bf\u09b7\u09cd\u099f\u09bf\u0993 \u0985\u09a5\u09ac\u09be page-\u098f inbox \u0995\u09b0\u09c1\u09a8\u0964 \u09ae\u09bf\u09b7\u09cd\u099f\u09bf\u0993, cake \u09ac\u09cd\u09af\u09ac\u09b8\u09be \u09b9\u09cb\u0995 \u09b8\u09b9\u099c, \u0997\u09c1\u099b\u09be\u09a8\u09cb \u0986\u09b0 smart\u0964",
+      "start_time": 5.1,
+      "end_time": 152.22,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "\u098f\u0995\u099c\u09a8",
+          "start_time": 5.1,
+          "end_time": 5.56
+        },
+        {
+          "text": " ",
+          "start_time": 5.56,
+          "end_time": 5.86
+        },
+        {
+          "text": "cake",
+          "start_time": 5.86,
+          "end_time": 6.1
+        },
+        {
+          "text": " ",
+          "start_time": 6.1,
+          "end_time": 6.16
+        },
+        {
+          "text": "\u0989\u09a6\u09cd\u09af\u09cb\u0995\u09cd\u09a4\u09be\u09b0",
+          "start_time": 6.16,
+          "end_time": 6.64
+        },
+        {
+          "text": " ",
+          "start_time": 6.64,
+          "end_time": 6.78
+        },
+        {
+          "text": "\u09a6\u09bf\u09a8",
+          "start_time": 6.78,
+          "end_time": 6.94
+        },
+        {
+          "text": " ",
+          "start_time": 6.94,
+          "end_time": 7.04
+        },
+        {
+          "text": "\u0995\u09c7\u09ae\u09a8",
+          "start_time": 7.04,
+          "end_time": 7.26
+        },
+        {
+          "text": " ",
+          "start_time": 7.26,
+          "end_time": 7.34
+        },
+        {
+          "text": "\u09af\u09be\u09af\u09bc?",
+          "start_time": 7.34,
+          "end_time": 7.52
+        },
+        {
+          "text": " ",
+          "start_time": 7.52,
+          "end_time": 7.56
+        },
+        {
+          "text": "\u09b8\u0995\u09be\u09b2\u09c7",
+          "start_time": 8.52,
+          "end_time": 9.1
+        },
+        {
+          "text": " ",
+          "start_time": 9.1,
+          "end_time": 9.16
+        },
+        {
+          "text": "inbox-\u098f",
+          "start_time": 9.16,
+          "end_time": 9.72
+        },
+        {
+          "text": " ",
+          "start_time": 9.72,
+          "end_time": 9.78
+        },
+        {
+          "text": "order,",
+          "start_time": 9.78,
+          "end_time": 10.08
+        },
+        {
+          "text": " ",
+          "start_time": 10.08,
+          "end_time": 10.08
+        },
+        {
+          "text": "\u09a6\u09c1\u09aa\u09c1\u09b0\u09c7",
+          "start_time": 10.66,
+          "end_time": 11.06
+        },
+        {
+          "text": " ",
+          "start_time": 11.06,
+          "end_time": 11.1
+        },
+        {
+          "text": "baking,",
+          "start_time": 11.1,
+          "end_time": 11.56
+        },
+        {
+          "text": " ",
+          "start_time": 11.56,
+          "end_time": 11.56
+        },
+        {
+          "text": "\u09ac\u09bf\u0995\u09c7\u09b2\u09c7",
+          "start_time": 12.14,
+          "end_time": 12.52
+        },
+        {
+          "text": " ",
+          "start_time": 12.52,
+          "end_time": 12.54
+        },
+        {
+          "text": "delivery",
+          "start_time": 12.56,
+          "end_time": 12.96
+        },
+        {
+          "text": " ",
+          "start_time": 12.96,
+          "end_time": 13.06
+        },
+        {
+          "text": "tension,",
+          "start_time": 13.06,
+          "end_time": 13.54
+        },
+        {
+          "text": " ",
+          "start_time": 13.54,
+          "end_time": 13.54
+        },
+        {
+          "text": "\u09b0\u09be\u09a4\u09c7",
+          "start_time": 14.18,
+          "end_time": 14.64
+        },
+        {
+          "text": " ",
+          "start_time": 14.64,
+          "end_time": 14.7
+        },
+        {
+          "text": "\u0996\u09be\u09a4\u09be",
+          "start_time": 14.7,
+          "end_time": 14.94
+        },
+        {
+          "text": " ",
+          "start_time": 14.94,
+          "end_time": 15.02
+        },
+        {
+          "text": "\u0996\u09c1\u09b2\u09c7",
+          "start_time": 15.02,
+          "end_time": 15.26
+        },
+        {
+          "text": " ",
+          "start_time": 15.26,
+          "end_time": 15.3
+        },
+        {
+          "text": "\u09b9\u09bf\u09b8\u09be\u09ac",
+          "start_time": 15.3,
+          "end_time": 15.6
+        },
+        {
+          "text": " ",
+          "start_time": 15.6,
+          "end_time": 15.64
+        },
+        {
+          "text": "\u09ae\u09c7\u09b2\u09be\u09a8\u09cb\u0964",
+          "start_time": 15.64,
+          "end_time": 16.46
+        },
+        {
+          "text": " ",
+          "start_time": 16.46,
+          "end_time": 16.52
+        },
+        {
+          "text": "\u0986\u09b0",
+          "start_time": 16.52,
+          "end_time": 16.7
+        },
+        {
+          "text": " ",
+          "start_time": 16.7,
+          "end_time": 16.74
+        },
+        {
+          "text": "\u09a4\u09be\u09b0",
+          "start_time": 16.74,
+          "end_time": 16.92
+        },
+        {
+          "text": " ",
+          "start_time": 16.92,
+          "end_time": 17.0
+        },
+        {
+          "text": "\u09ae\u09a7\u09cd\u09af\u09c7\u0987",
+          "start_time": 17.0,
+          "end_time": 17.4
+        },
+        {
+          "text": " ",
+          "start_time": 17.4,
+          "end_time": 17.74
+        },
+        {
+          "text": "\u0995\u09cb\u09a8\u09cb",
+          "start_time": 17.74,
+          "end_time": 18.02
+        },
+        {
+          "text": " ",
+          "start_time": 18.02,
+          "end_time": 18.1
+        },
+        {
+          "text": "order",
+          "start_time": 18.1,
+          "end_time": 18.36
+        },
+        {
+          "text": " ",
+          "start_time": 18.36,
+          "end_time": 18.44
+        },
+        {
+          "text": "\u09ad\u09c1\u09b2\u09c7",
+          "start_time": 18.44,
+          "end_time": 18.64
+        },
+        {
+          "text": " ",
+          "start_time": 18.64,
+          "end_time": 18.68
+        },
+        {
+          "text": "\u09af\u09be\u0993\u09af\u09bc\u09be\u09b0",
+          "start_time": 18.68,
+          "end_time": 18.92
+        },
+        {
+          "text": " ",
+          "start_time": 18.92,
+          "end_time": 18.96
+        },
+        {
+          "text": "\u09ad\u09af\u09bc\u0964",
+          "start_time": 18.96,
+          "end_time": 19.3
+        },
+        {
+          "text": " ",
+          "start_time": 19.3,
+          "end_time": 20.1
+        },
+        {
+          "text": "\u098f\u0987",
+          "start_time": 20.1,
+          "end_time": 20.26
+        },
+        {
+          "text": " ",
+          "start_time": 20.26,
+          "end_time": 20.36
+        },
+        {
+          "text": "\u09b8\u09ac",
+          "start_time": 20.36,
+          "end_time": 20.62
+        },
+        {
+          "text": " ",
+          "start_time": 20.62,
+          "end_time": 20.7
+        },
+        {
+          "text": "\u0995\u09be\u099c",
+          "start_time": 20.7,
+          "end_time": 20.88
+        },
+        {
+          "text": " ",
+          "start_time": 20.88,
+          "end_time": 20.94
+        },
+        {
+          "text": "\u09af\u09a6\u09bf",
+          "start_time": 20.94,
+          "end_time": 21.22
+        },
+        {
+          "text": " ",
+          "start_time": 21.22,
+          "end_time": 21.62
+        },
+        {
+          "text": "\u098f\u0995",
+          "start_time": 21.62,
+          "end_time": 21.72
+        },
+        {
+          "text": " ",
+          "start_time": 21.72,
+          "end_time": 21.8
+        },
+        {
+          "text": "\u099c\u09be\u09af\u09bc\u0997\u09be",
+          "start_time": 21.8,
+          "end_time": 22.0
+        },
+        {
+          "text": " ",
+          "start_time": 22.0,
+          "end_time": 22.08
+        },
+        {
+          "text": "\u09a5\u09c7\u0995\u09c7\u0987",
+          "start_time": 22.08,
+          "end_time": 22.34
+        },
+        {
+          "text": " ",
+          "start_time": 22.34,
+          "end_time": 22.38
+        },
+        {
+          "text": "\u0997\u09c1\u099b\u09bf\u09af\u09bc\u09c7",
+          "start_time": 22.38,
+          "end_time": 22.68
+        },
+        {
+          "text": " ",
+          "start_time": 22.68,
+          "end_time": 22.72
+        },
+        {
+          "text": "\u0995\u09b0\u09be",
+          "start_time": 22.72,
+          "end_time": 22.88
+        },
+        {
+          "text": " ",
+          "start_time": 22.88,
+          "end_time": 22.94
+        },
+        {
+          "text": "\u09af\u09c7\u09a4\u0964",
+          "start_time": 22.94,
+          "end_time": 23.24
+        },
+        {
+          "text": " ",
+          "start_time": 23.24,
+          "end_time": 23.86
+        },
+        {
+          "text": "\u09ae\u09bf\u09b7\u09cd\u099f\u09bf\u0993\u09a4\u09c7",
+          "start_time": 23.86,
+          "end_time": 24.6
+        },
+        {
+          "text": " ",
+          "start_time": 24.6,
+          "end_time": 24.64
+        },
+        {
+          "text": "\u09aa\u09cd\u09b0\u09a4\u09bf\u099f\u09be",
+          "start_time": 24.64,
+          "end_time": 25.1
+        },
+        {
+          "text": " ",
+          "start_time": 25.1,
+          "end_time": 25.14
+        },
+        {
+          "text": "feature",
+          "start_time": 25.14,
+          "end_time": 25.46
+        },
+        {
+          "text": " ",
+          "start_time": 25.46,
+          "end_time": 25.74
+        },
+        {
+          "text": "\u0986\u09aa\u09a8\u09be\u09b0",
+          "start_time": 25.74,
+          "end_time": 26.08
+        },
+        {
+          "text": " ",
+          "start_time": 26.08,
+          "end_time": 26.1
+        },
+        {
+          "text": "\u0995\u09c0",
+          "start_time": 26.1,
+          "end_time": 26.22
+        },
+        {
+          "text": " ",
+          "start_time": 26.22,
+          "end_time": 26.24
+        },
+        {
+          "text": "\u0995\u09be\u099c\u09c7",
+          "start_time": 26.24,
+          "end_time": 26.44
+        },
+        {
+          "text": " ",
+          "start_time": 26.44,
+          "end_time": 26.48
+        },
+        {
+          "text": "\u09b2\u09be\u0997\u09ac\u09c7?",
+          "start_time": 26.48,
+          "end_time": 26.8
+        },
+        {
+          "text": " ",
+          "start_time": 26.8,
+          "end_time": 26.8
+        },
+        {
+          "text": "Order",
+          "start_time": 27.36,
+          "end_time": 27.6
+        },
+        {
+          "text": " ",
+          "start_time": 27.6,
+          "end_time": 27.68
+        },
+        {
+          "text": "management,",
+          "start_time": 27.68,
+          "end_time": 28.22
+        },
+        {
+          "text": " ",
+          "start_time": 28.22,
+          "end_time": 28.86
+        },
+        {
+          "text": "Messenger,",
+          "start_time": 28.86,
+          "end_time": 29.44
+        },
+        {
+          "text": " ",
+          "start_time": 29.44,
+          "end_time": 29.58
+        },
+        {
+          "text": "WhatsApp,",
+          "start_time": 29.58,
+          "end_time": 30.16
+        },
+        {
+          "text": " ",
+          "start_time": 30.16,
+          "end_time": 30.28
+        },
+        {
+          "text": "phone",
+          "start_time": 30.28,
+          "end_time": 30.62
+        },
+        {
+          "text": " ",
+          "start_time": 30.62,
+          "end_time": 30.88
+        },
+        {
+          "text": "\u09af\u09c7\u0996\u09be\u09a8",
+          "start_time": 30.88,
+          "end_time": 31.12
+        },
+        {
+          "text": " ",
+          "start_time": 31.12,
+          "end_time": 31.18
+        },
+        {
+          "text": "\u09a5\u09c7\u0995\u09c7\u0987",
+          "start_time": 31.18,
+          "end_time": 31.42
+        },
+        {
+          "text": " ",
+          "start_time": 31.42,
+          "end_time": 31.46
+        },
+        {
+          "text": "order",
+          "start_time": 31.46,
+          "end_time": 31.68
+        },
+        {
+          "text": " ",
+          "start_time": 31.68,
+          "end_time": 31.74
+        },
+        {
+          "text": "\u0986\u09b8\u09c1\u0995",
+          "start_time": 31.74,
+          "end_time": 32.0
+        },
+        {
+          "text": " ",
+          "start_time": 32.0,
+          "end_time": 32.32
+        },
+        {
+          "text": "\u09b8\u09ac",
+          "start_time": 32.32,
+          "end_time": 32.68
+        },
+        {
+          "text": " ",
+          "start_time": 32.68,
+          "end_time": 32.759
+        },
+        {
+          "text": "\u098f\u0995",
+          "start_time": 32.759,
+          "end_time": 32.9
+        },
+        {
+          "text": " ",
+          "start_time": 32.9,
+          "end_time": 32.94
+        },
+        {
+          "text": "\u09a4\u09be\u09b2\u09bf\u0995\u09be\u09af\u09bc",
+          "start_time": 32.94,
+          "end_time": 33.26
+        },
+        {
+          "text": " ",
+          "start_time": 33.26,
+          "end_time": 33.32
+        },
+        {
+          "text": "\u09a5\u09be\u0995\u09ac\u09c7\u0964",
+          "start_time": 33.32,
+          "end_time": 34.1
+        },
+        {
+          "text": " ",
+          "start_time": 34.1,
+          "end_time": 34.14
+        },
+        {
+          "text": "\u0995\u09cb\u09a8",
+          "start_time": 34.14,
+          "end_time": 34.38
+        },
+        {
+          "text": " ",
+          "start_time": 34.38,
+          "end_time": 34.4
+        },
+        {
+          "text": "order",
+          "start_time": 34.4,
+          "end_time": 34.62
+        },
+        {
+          "text": " ",
+          "start_time": 34.62,
+          "end_time": 34.74
+        },
+        {
+          "text": "pending,",
+          "start_time": 34.74,
+          "end_time": 35.12
+        },
+        {
+          "text": " ",
+          "start_time": 35.12,
+          "end_time": 35.32
+        },
+        {
+          "text": "\u0995\u09cb\u09a8\u099f\u09be",
+          "start_time": 35.32,
+          "end_time": 35.62
+        },
+        {
+          "text": " ",
+          "start_time": 35.62,
+          "end_time": 35.66
+        },
+        {
+          "text": "\u09ac\u09be\u09a8\u09be\u09a8\u09cb",
+          "start_time": 35.66,
+          "end_time": 35.96
+        },
+        {
+          "text": " ",
+          "start_time": 35.96,
+          "end_time": 36.0
+        },
+        {
+          "text": "\u09b9\u099a\u09cd\u099b\u09c7,",
+          "start_time": 36.0,
+          "end_time": 36.34
+        },
+        {
+          "text": " ",
+          "start_time": 36.34,
+          "end_time": 36.54
+        },
+        {
+          "text": "\u0995\u09cb\u09a8\u099f\u09be",
+          "start_time": 36.54,
+          "end_time": 36.82
+        },
+        {
+          "text": " ",
+          "start_time": 36.82,
+          "end_time": 36.86
+        },
+        {
+          "text": "delivery",
+          "start_time": 36.86,
+          "end_time": 37.24
+        },
+        {
+          "text": " ",
+          "start_time": 37.24,
+          "end_time": 37.28
+        },
+        {
+          "text": "\u09b9\u09af\u09bc\u09c7",
+          "start_time": 37.28,
+          "end_time": 37.42
+        },
+        {
+          "text": " ",
+          "start_time": 37.42,
+          "end_time": 37.46
+        },
+        {
+          "text": "\u0997\u09c7\u099b\u09c7",
+          "start_time": 37.46,
+          "end_time": 37.74
+        },
+        {
+          "text": " ",
+          "start_time": 37.74,
+          "end_time": 38.18
+        },
+        {
+          "text": "\u098f\u0995",
+          "start_time": 38.18,
+          "end_time": 38.32
+        },
+        {
+          "text": " ",
+          "start_time": 38.32,
+          "end_time": 38.36
+        },
+        {
+          "text": "\u09a8\u099c\u09b0\u09c7",
+          "start_time": 38.36,
+          "end_time": 38.66
+        },
+        {
+          "text": " ",
+          "start_time": 38.66,
+          "end_time": 38.7
+        },
+        {
+          "text": "\u09a6\u09c7\u0996\u09be",
+          "start_time": 38.7,
+          "end_time": 38.9
+        },
+        {
+          "text": " ",
+          "start_time": 38.9,
+          "end_time": 38.94
+        },
+        {
+          "text": "\u09af\u09be\u09ac\u09c7\u0964",
+          "start_time": 38.94,
+          "end_time": 39.64
+        },
+        {
+          "text": " ",
+          "start_time": 39.64,
+          "end_time": 39.68
+        },
+        {
+          "text": "\u0995\u09cb\u09a8",
+          "start_time": 39.68,
+          "end_time": 39.96
+        },
+        {
+          "text": " ",
+          "start_time": 39.96,
+          "end_time": 40.04
+        },
+        {
+          "text": "order",
+          "start_time": 40.04,
+          "end_time": 40.32
+        },
+        {
+          "text": " ",
+          "start_time": 40.32,
+          "end_time": 40.36
+        },
+        {
+          "text": "\u09b9\u09be\u09b0\u09bf\u09af\u09bc\u09c7",
+          "start_time": 40.36,
+          "end_time": 40.62
+        },
+        {
+          "text": " ",
+          "start_time": 40.62,
+          "end_time": 40.66
+        },
+        {
+          "text": "\u09af\u09be\u0993\u09af\u09bc\u09be\u09b0",
+          "start_time": 40.66,
+          "end_time": 40.92
+        },
+        {
+          "text": " ",
+          "start_time": 40.92,
+          "end_time": 40.96
+        },
+        {
+          "text": "\u09ad\u09af\u09bc",
+          "start_time": 40.96,
+          "end_time": 41.1
+        },
+        {
+          "text": " ",
+          "start_time": 41.1,
+          "end_time": 41.18
+        },
+        {
+          "text": "\u09a5\u09be\u0995\u09ac\u09c7",
+          "start_time": 41.18,
+          "end_time": 41.44
+        },
+        {
+          "text": " ",
+          "start_time": 41.44,
+          "end_time": 41.48
+        },
+        {
+          "text": "\u09a8\u09be\u0964",
+          "start_time": 41.48,
+          "end_time": 42.1
+        },
+        {
+          "text": " ",
+          "start_time": 42.1,
+          "end_time": 42.12
+        },
+        {
+          "text": "Delivery",
+          "start_time": 42.12,
+          "end_time": 42.5
+        },
+        {
+          "text": " ",
+          "start_time": 42.5,
+          "end_time": 42.58
+        },
+        {
+          "text": "schedule,",
+          "start_time": 42.58,
+          "end_time": 42.96
+        },
+        {
+          "text": " ",
+          "start_time": 42.96,
+          "end_time": 43.5
+        },
+        {
+          "text": "\u0986\u099c,",
+          "start_time": 43.5,
+          "end_time": 43.8
+        },
+        {
+          "text": " ",
+          "start_time": 43.8,
+          "end_time": 43.94
+        },
+        {
+          "text": "\u0995\u09be\u09b2",
+          "start_time": 43.94,
+          "end_time": 44.26
+        },
+        {
+          "text": " ",
+          "start_time": 44.26,
+          "end_time": 44.28
+        },
+        {
+          "text": "\u09ac\u09be",
+          "start_time": 44.28,
+          "end_time": 44.42
+        },
+        {
+          "text": " ",
+          "start_time": 44.42,
+          "end_time": 44.52
+        },
+        {
+          "text": "\u0986\u0997\u09be\u09ae\u09c0",
+          "start_time": 44.52,
+          "end_time": 44.82
+        },
+        {
+          "text": " ",
+          "start_time": 44.82,
+          "end_time": 44.86
+        },
+        {
+          "text": "\u09b8\u09aa\u09cd\u09a4\u09be\u09b9\u09c7",
+          "start_time": 44.86,
+          "end_time": 45.4
+        },
+        {
+          "text": " ",
+          "start_time": 45.4,
+          "end_time": 45.46
+        },
+        {
+          "text": "\u0995\u09cb\u09a8",
+          "start_time": 45.46,
+          "end_time": 45.64
+        },
+        {
+          "text": " ",
+          "start_time": 45.64,
+          "end_time": 45.76
+        },
+        {
+          "text": "cake",
+          "start_time": 45.76,
+          "end_time": 45.96
+        },
+        {
+          "text": " ",
+          "start_time": 45.96,
+          "end_time": 46.02
+        },
+        {
+          "text": "\u0995\u09cb\u09a5\u09be\u09af\u09bc",
+          "start_time": 46.02,
+          "end_time": 46.3
+        },
+        {
+          "text": " ",
+          "start_time": 46.3,
+          "end_time": 46.36
+        },
+        {
+          "text": "\u09af\u09be\u09ac\u09c7",
+          "start_time": 46.36,
+          "end_time": 46.8
+        },
+        {
+          "text": " ",
+          "start_time": 46.8,
+          "end_time": 46.88
+        },
+        {
+          "text": "\u0986\u0997\u09c7",
+          "start_time": 46.88,
+          "end_time": 47.02
+        },
+        {
+          "text": " ",
+          "start_time": 47.02,
+          "end_time": 47.08
+        },
+        {
+          "text": "\u09a5\u09c7\u0995\u09c7\u0987",
+          "start_time": 47.08,
+          "end_time": 47.32
+        },
+        {
+          "text": " ",
+          "start_time": 47.32,
+          "end_time": 47.36
+        },
+        {
+          "text": "\u099c\u09be\u09a8\u09be",
+          "start_time": 47.36,
+          "end_time": 47.56
+        },
+        {
+          "text": " ",
+          "start_time": 47.56,
+          "end_time": 47.58
+        },
+        {
+          "text": "\u09a5\u09be\u0995\u09ac\u09c7\u0964",
+          "start_time": 47.58,
+          "end_time": 48.4
+        },
+        {
+          "text": " ",
+          "start_time": 48.4,
+          "end_time": 48.46
+        },
+        {
+          "text": "\u099c\u09a8\u09cd\u09ae\u09a6\u09bf\u09a8",
+          "start_time": 48.46,
+          "end_time": 48.98
+        },
+        {
+          "text": " ",
+          "start_time": 48.98,
+          "end_time": 49.04
+        },
+        {
+          "text": "\u09ac\u09be",
+          "start_time": 49.04,
+          "end_time": 49.22
+        },
+        {
+          "text": " ",
+          "start_time": 49.22,
+          "end_time": 49.24
+        },
+        {
+          "text": "\u09ac\u09bf\u09af\u09bc\u09c7\u09b0",
+          "start_time": 49.24,
+          "end_time": 49.48
+        },
+        {
+          "text": " ",
+          "start_time": 49.48,
+          "end_time": 49.54
+        },
+        {
+          "text": "\u09ae\u09a4\u09cb",
+          "start_time": 49.54,
+          "end_time": 49.86
+        },
+        {
+          "text": " ",
+          "start_time": 49.86,
+          "end_time": 49.9
+        },
+        {
+          "text": "\u09ac\u09a1\u09bc",
+          "start_time": 49.9,
+          "end_time": 50.14
+        },
+        {
+          "text": " ",
+          "start_time": 50.14,
+          "end_time": 50.18
+        },
+        {
+          "text": "order\u09c7\u09b0",
+          "start_time": 50.18,
+          "end_time": 50.54
+        },
+        {
+          "text": " ",
+          "start_time": 50.54,
+          "end_time": 50.56
+        },
+        {
+          "text": "\u09aa\u09cd\u09b0\u09b8\u09cd\u09a4\u09c1\u09a4\u09bf",
+          "start_time": 50.56,
+          "end_time": 50.94
+        },
+        {
+          "text": " ",
+          "start_time": 50.94,
+          "end_time": 51.0
+        },
+        {
+          "text": "\u09a8\u09c7\u0993\u09af\u09bc\u09be",
+          "start_time": 51.0,
+          "end_time": 51.16
+        },
+        {
+          "text": " ",
+          "start_time": 51.16,
+          "end_time": 51.22
+        },
+        {
+          "text": "\u09af\u09be\u09ac\u09c7",
+          "start_time": 51.22,
+          "end_time": 51.44
+        },
+        {
+          "text": " ",
+          "start_time": 51.44,
+          "end_time": 51.66
+        },
+        {
+          "text": "\u09b8\u09ae\u09af\u09bc",
+          "start_time": 51.66,
+          "end_time": 51.94
+        },
+        {
+          "text": " ",
+          "start_time": 51.94,
+          "end_time": 52.02
+        },
+        {
+          "text": "\u09a8\u09bf\u09af\u09bc\u09c7\u0964",
+          "start_time": 52.02,
+          "end_time": 52.64
+        },
+        {
+          "text": " ",
+          "start_time": 52.64,
+          "end_time": 52.7
+        },
+        {
+          "text": "\u09b8\u09ae\u09af\u09bc\u09ae\u09a4\u09cb",
+          "start_time": 52.7,
+          "end_time": 53.22
+        },
+        {
+          "text": " ",
+          "start_time": 53.22,
+          "end_time": 53.24
+        },
+        {
+          "text": "delivery",
+          "start_time": 53.24,
+          "end_time": 53.64
+        },
+        {
+          "text": " ",
+          "start_time": 53.64,
+          "end_time": 53.68
+        },
+        {
+          "text": "\u09b9\u09b2\u09c7",
+          "start_time": 53.68,
+          "end_time": 54.0
+        },
+        {
+          "text": " ",
+          "start_time": 54.0,
+          "end_time": 54.04
+        },
+        {
+          "text": "customer\u09c7\u09b0",
+          "start_time": 54.04,
+          "end_time": 54.66
+        },
+        {
+          "text": " ",
+          "start_time": 54.66,
+          "end_time": 54.74
+        },
+        {
+          "text": "\u0986\u09b8\u09cd\u09a5\u09be\u0993",
+          "start_time": 54.74,
+          "end_time": 55.12
+        },
+        {
+          "text": " ",
+          "start_time": 55.12,
+          "end_time": 55.14
+        },
+        {
+          "text": "\u09ac\u09be\u09a1\u09bc\u09ac\u09c7\u0964",
+          "start_time": 55.14,
+          "end_time": 55.92
+        },
+        {
+          "text": " ",
+          "start_time": 55.92,
+          "end_time": 55.96
+        },
+        {
+          "text": "Customer",
+          "start_time": 55.96,
+          "end_time": 56.36
+        },
+        {
+          "text": " ",
+          "start_time": 56.36,
+          "end_time": 56.44
+        },
+        {
+          "text": "management,",
+          "start_time": 56.44,
+          "end_time": 56.96
+        },
+        {
+          "text": " ",
+          "start_time": 56.96,
+          "end_time": 56.98
+        },
+        {
+          "text": "\u09aa\u09cd\u09b0\u09a4\u09bf\u099f\u09be",
+          "start_time": 57.44,
+          "end_time": 57.84
+        },
+        {
+          "text": " ",
+          "start_time": 57.84,
+          "end_time": 57.88
+        },
+        {
+          "text": "customer\u09c7\u09b0",
+          "start_time": 57.88,
+          "end_time": 58.46
+        },
+        {
+          "text": " ",
+          "start_time": 58.46,
+          "end_time": 58.54
+        },
+        {
+          "text": "\u09a8\u09be\u09ae,",
+          "start_time": 58.54,
+          "end_time": 58.88
+        },
+        {
+          "text": " ",
+          "start_time": 58.88,
+          "end_time": 59.04
+        },
+        {
+          "text": "\u09a8\u09ae\u09cd\u09ac\u09b0,",
+          "start_time": 59.04,
+          "end_time": 59.46
+        },
+        {
+          "text": " ",
+          "start_time": 59.46,
+          "end_time": 59.6
+        },
+        {
+          "text": "\u09a0\u09bf\u0995\u09be\u09a8\u09be",
+          "start_time": 59.6,
+          "end_time": 59.98
+        },
+        {
+          "text": " ",
+          "start_time": 59.98,
+          "end_time": 60.28
+        },
+        {
+          "text": "\u0986\u09b0",
+          "start_time": 60.28,
+          "end_time": 60.44
+        },
+        {
+          "text": " ",
+          "start_time": 60.44,
+          "end_time": 60.56
+        },
+        {
+          "text": "\u0986\u0997\u09c7\u09b0",
+          "start_time": 60.56,
+          "end_time": 60.78
+        },
+        {
+          "text": " ",
+          "start_time": 60.78,
+          "end_time": 60.82
+        },
+        {
+          "text": "order",
+          "start_time": 60.82,
+          "end_time": 61.06
+        },
+        {
+          "text": " ",
+          "start_time": 61.06,
+          "end_time": 61.18
+        },
+        {
+          "text": "\u09b8\u0982\u09b0\u0995\u09cd\u09b7\u09bf\u09a4",
+          "start_time": 61.18,
+          "end_time": 61.68
+        },
+        {
+          "text": " ",
+          "start_time": 61.68,
+          "end_time": 61.74
+        },
+        {
+          "text": "\u09a5\u09be\u0995\u09ac\u09c7\u0964",
+          "start_time": 61.74,
+          "end_time": 62.52
+        },
+        {
+          "text": " ",
+          "start_time": 62.52,
+          "end_time": 62.6
+        },
+        {
+          "text": "\u0986\u09aa\u09c1",
+          "start_time": 62.6,
+          "end_time": 62.88
+        },
+        {
+          "text": " ",
+          "start_time": 62.88,
+          "end_time": 63.3
+        },
+        {
+          "text": "\u0997\u09a4\u09ac\u09be\u09b0\u09c7\u09b0",
+          "start_time": 63.3,
+          "end_time": 63.76
+        },
+        {
+          "text": " ",
+          "start_time": 63.76,
+          "end_time": 63.8
+        },
+        {
+          "text": "\u09ae\u09a4\u09cb\u0987",
+          "start_time": 63.8,
+          "end_time": 64.04
+        },
+        {
+          "text": " ",
+          "start_time": 64.04,
+          "end_time": 64.08
+        },
+        {
+          "text": "cake\u099f\u09be",
+          "start_time": 64.08,
+          "end_time": 64.34
+        },
+        {
+          "text": " ",
+          "start_time": 64.34,
+          "end_time": 64.4
+        },
+        {
+          "text": "\u09a6\u09bf\u09a8",
+          "start_time": 64.4,
+          "end_time": 64.58
+        },
+        {
+          "text": " ",
+          "start_time": 64.58,
+          "end_time": 64.9
+        },
+        {
+          "text": "\u09ac\u09b2\u09b2\u09c7",
+          "start_time": 64.9,
+          "end_time": 65.18
+        },
+        {
+          "text": " ",
+          "start_time": 65.18,
+          "end_time": 65.239
+        },
+        {
+          "text": "\u0996\u09c1\u0981\u099c\u09a4\u09c7",
+          "start_time": 65.239,
+          "end_time": 65.56
+        },
+        {
+          "text": " ",
+          "start_time": 65.56,
+          "end_time": 65.58
+        },
+        {
+          "text": "\u09b9\u09ac\u09c7",
+          "start_time": 65.58,
+          "end_time": 65.76
+        },
+        {
+          "text": " ",
+          "start_time": 65.76,
+          "end_time": 65.8
+        },
+        {
+          "text": "\u09a8\u09be,",
+          "start_time": 65.8,
+          "end_time": 65.88
+        },
+        {
+          "text": " ",
+          "start_time": 65.88,
+          "end_time": 66.16
+        },
+        {
+          "text": "\u09b8\u09be\u09a5\u09c7",
+          "start_time": 66.16,
+          "end_time": 66.44
+        },
+        {
+          "text": " ",
+          "start_time": 66.44,
+          "end_time": 66.48
+        },
+        {
+          "text": "\u09b8\u09be\u09a5\u09c7",
+          "start_time": 66.48,
+          "end_time": 66.7
+        },
+        {
+          "text": " ",
+          "start_time": 66.7,
+          "end_time": 66.74
+        },
+        {
+          "text": "\u09aa\u09c7\u09af\u09bc\u09c7",
+          "start_time": 66.74,
+          "end_time": 66.88
+        },
+        {
+          "text": " ",
+          "start_time": 66.88,
+          "end_time": 66.92
+        },
+        {
+          "text": "\u09af\u09be\u09ac\u09c7\u09a8\u0964",
+          "start_time": 66.92,
+          "end_time": 67.6
+        },
+        {
+          "text": " ",
+          "start_time": 67.6,
+          "end_time": 67.66
+        },
+        {
+          "text": "\u09aa\u09c1\u09b0\u09a8\u09cb",
+          "start_time": 67.66,
+          "end_time": 67.96
+        },
+        {
+          "text": " ",
+          "start_time": 67.96,
+          "end_time": 68.0
+        },
+        {
+          "text": "customer\u09a6\u09c7\u09b0",
+          "start_time": 68.0,
+          "end_time": 68.7
+        },
+        {
+          "text": " ",
+          "start_time": 68.7,
+          "end_time": 68.72
+        },
+        {
+          "text": "\u09ac\u09bf\u09b6\u09c7\u09b7",
+          "start_time": 68.74,
+          "end_time": 69.08
+        },
+        {
+          "text": " ",
+          "start_time": 69.08,
+          "end_time": 69.1
+        },
+        {
+          "text": "\u09a6\u09bf\u09a8\u09c7",
+          "start_time": 69.1,
+          "end_time": 69.3
+        },
+        {
+          "text": " ",
+          "start_time": 69.3,
+          "end_time": 69.34
+        },
+        {
+          "text": "offer",
+          "start_time": 69.34,
+          "end_time": 69.6
+        },
+        {
+          "text": " ",
+          "start_time": 69.6,
+          "end_time": 69.64
+        },
+        {
+          "text": "\u09aa\u09be\u09a0\u09bf\u09af\u09bc\u09c7",
+          "start_time": 69.64,
+          "end_time": 70.16
+        },
+        {
+          "text": " ",
+          "start_time": 70.16,
+          "end_time": 70.2
+        },
+        {
+          "text": "\u09ac\u09be\u09b0\u09ac\u09be\u09b0",
+          "start_time": 70.2,
+          "end_time": 70.56
+        },
+        {
+          "text": " ",
+          "start_time": 70.56,
+          "end_time": 70.6
+        },
+        {
+          "text": "order",
+          "start_time": 70.6,
+          "end_time": 70.82
+        },
+        {
+          "text": " ",
+          "start_time": 70.82,
+          "end_time": 70.9
+        },
+        {
+          "text": "\u09aa\u09be\u09ac\u09c7\u09a8\u0964",
+          "start_time": 70.9,
+          "end_time": 71.7
+        },
+        {
+          "text": " ",
+          "start_time": 71.7,
+          "end_time": 71.76
+        },
+        {
+          "text": "Cake",
+          "start_time": 71.76,
+          "end_time": 72.04
+        },
+        {
+          "text": " ",
+          "start_time": 72.04,
+          "end_time": 72.22
+        },
+        {
+          "text": "\u0993",
+          "start_time": 72.22,
+          "end_time": 72.26
+        },
+        {
+          "text": " ",
+          "start_time": 72.26,
+          "end_time": 72.36
+        },
+        {
+          "text": "product",
+          "start_time": 72.36,
+          "end_time": 72.7
+        },
+        {
+          "text": " ",
+          "start_time": 72.7,
+          "end_time": 72.76
+        },
+        {
+          "text": "management,",
+          "start_time": 72.76,
+          "end_time": 73.28
+        },
+        {
+          "text": " ",
+          "start_time": 73.28,
+          "end_time": 73.28
+        },
+        {
+          "text": "\u09b8\u09ac",
+          "start_time": 73.78,
+          "end_time": 74.0
+        },
+        {
+          "text": " ",
+          "start_time": 74.0,
+          "end_time": 74.16
+        },
+        {
+          "text": "cake,",
+          "start_time": 74.16,
+          "end_time": 74.48
+        },
+        {
+          "text": " ",
+          "start_time": 74.48,
+          "end_time": 74.7
+        },
+        {
+          "text": "flavor,",
+          "start_time": 74.7,
+          "end_time": 75.14
+        },
+        {
+          "text": " ",
+          "start_time": 75.14,
+          "end_time": 75.32
+        },
+        {
+          "text": "size",
+          "start_time": 75.32,
+          "end_time": 75.68
+        },
+        {
+          "text": " ",
+          "start_time": 75.68,
+          "end_time": 75.84
+        },
+        {
+          "text": "\u0986\u09b0",
+          "start_time": 75.84,
+          "end_time": 75.92
+        },
+        {
+          "text": " ",
+          "start_time": 75.92,
+          "end_time": 76.06
+        },
+        {
+          "text": "\u09a6\u09be\u09ae",
+          "start_time": 76.06,
+          "end_time": 76.32
+        },
+        {
+          "text": " ",
+          "start_time": 76.32,
+          "end_time": 76.54
+        },
+        {
+          "text": "\u0997\u09c1\u099b\u09bf\u09af\u09bc\u09c7",
+          "start_time": 76.54,
+          "end_time": 76.84
+        },
+        {
+          "text": " ",
+          "start_time": 76.84,
+          "end_time": 76.86
+        },
+        {
+          "text": "\u09b0\u09be\u0996\u09be",
+          "start_time": 76.86,
+          "end_time": 77.08
+        },
+        {
+          "text": " ",
+          "start_time": 77.08,
+          "end_time": 77.12
+        },
+        {
+          "text": "\u09af\u09be\u09ac\u09c7\u0964",
+          "start_time": 77.12,
+          "end_time": 77.72
+        },
+        {
+          "text": " ",
+          "start_time": 77.72,
+          "end_time": 77.8
+        },
+        {
+          "text": "\u09a8\u09a4\u09c1\u09a8",
+          "start_time": 77.8,
+          "end_time": 78.08
+        },
+        {
+          "text": " ",
+          "start_time": 78.08,
+          "end_time": 78.16
+        },
+        {
+          "text": "cake",
+          "start_time": 78.16,
+          "end_time": 78.32
+        },
+        {
+          "text": " ",
+          "start_time": 78.32,
+          "end_time": 78.42
+        },
+        {
+          "text": "\u09af\u09cb\u0997",
+          "start_time": 78.42,
+          "end_time": 78.62
+        },
+        {
+          "text": " ",
+          "start_time": 78.62,
+          "end_time": 78.66
+        },
+        {
+          "text": "\u0995\u09b0\u09be",
+          "start_time": 78.66,
+          "end_time": 78.92
+        },
+        {
+          "text": " ",
+          "start_time": 78.92,
+          "end_time": 78.96
+        },
+        {
+          "text": "\u09ac\u09be",
+          "start_time": 78.96,
+          "end_time": 79.02
+        },
+        {
+          "text": " ",
+          "start_time": 79.02,
+          "end_time": 79.14
+        },
+        {
+          "text": "\u09a6\u09be\u09ae",
+          "start_time": 79.14,
+          "end_time": 79.36
+        },
+        {
+          "text": " ",
+          "start_time": 79.36,
+          "end_time": 79.4
+        },
+        {
+          "text": "\u09ac\u09a6\u09b2\u09be\u09a8\u09cb",
+          "start_time": 79.4,
+          "end_time": 79.78
+        },
+        {
+          "text": " ",
+          "start_time": 79.78,
+          "end_time": 79.82
+        },
+        {
+          "text": "\u09af\u09be\u09ac\u09c7",
+          "start_time": 79.82,
+          "end_time": 80.16
+        },
+        {
+          "text": " ",
+          "start_time": 80.16,
+          "end_time": 80.22
+        },
+        {
+          "text": "\u0995\u09af\u09bc\u09c7\u0995",
+          "start_time": 80.22,
+          "end_time": 80.44
+        },
+        {
+          "text": " ",
+          "start_time": 80.44,
+          "end_time": 80.52
+        },
+        {
+          "text": "\u09b8\u09c7\u0995\u09c7\u09a8\u09cd\u09a1\u09c7\u0964",
+          "start_time": 80.52,
+          "end_time": 81.28
+        },
+        {
+          "text": " ",
+          "start_time": 81.28,
+          "end_time": 81.32
+        },
+        {
+          "text": "Customer\u0995\u09c7",
+          "start_time": 81.32,
+          "end_time": 81.98
+        },
+        {
+          "text": " ",
+          "start_time": 81.98,
+          "end_time": 82.02
+        },
+        {
+          "text": "\u09a6\u09be\u09ae",
+          "start_time": 82.02,
+          "end_time": 82.22
+        },
+        {
+          "text": " ",
+          "start_time": 82.22,
+          "end_time": 82.26
+        },
+        {
+          "text": "\u09ac\u09b2\u09a4\u09c7",
+          "start_time": 82.26,
+          "end_time": 82.52
+        },
+        {
+          "text": " ",
+          "start_time": 82.52,
+          "end_time": 82.6
+        },
+        {
+          "text": "\u0997\u09bf\u09af\u09bc\u09c7",
+          "start_time": 82.6,
+          "end_time": 82.9
+        },
+        {
+          "text": " ",
+          "start_time": 82.9,
+          "end_time": 83.0
+        },
+        {
+          "text": "\u0986\u09b0",
+          "start_time": 83.0,
+          "end_time": 83.22
+        },
+        {
+          "text": " ",
+          "start_time": 83.22,
+          "end_time": 83.24
+        },
+        {
+          "text": "\u0997\u09c1\u09b2\u09bf\u09af\u09bc\u09c7",
+          "start_time": 83.24,
+          "end_time": 83.52
+        },
+        {
+          "text": " ",
+          "start_time": 83.52,
+          "end_time": 83.56
+        },
+        {
+          "text": "\u09af\u09be\u09ac\u09c7",
+          "start_time": 83.56,
+          "end_time": 83.76
+        },
+        {
+          "text": " ",
+          "start_time": 83.76,
+          "end_time": 83.8
+        },
+        {
+          "text": "\u09a8\u09be\u0964",
+          "start_time": 83.8,
+          "end_time": 84.42
+        },
+        {
+          "text": " ",
+          "start_time": 84.42,
+          "end_time": 84.46
+        },
+        {
+          "text": "Digital",
+          "start_time": 84.46,
+          "end_time": 84.84
+        },
+        {
+          "text": " ",
+          "start_time": 84.84,
+          "end_time": 84.92
+        },
+        {
+          "text": "catalog,",
+          "start_time": 84.92,
+          "end_time": 85.4
+        },
+        {
+          "text": " ",
+          "start_time": 85.4,
+          "end_time": 85.88
+        },
+        {
+          "text": "\u098f\u0995",
+          "start_time": 85.88,
+          "end_time": 86.06
+        },
+        {
+          "text": " ",
+          "start_time": 86.06,
+          "end_time": 86.1
+        },
+        {
+          "text": "link-\u098f\u0987",
+          "start_time": 86.1,
+          "end_time": 86.54
+        },
+        {
+          "text": " ",
+          "start_time": 86.54,
+          "end_time": 86.62
+        },
+        {
+          "text": "\u0986\u09aa\u09a8\u09be\u09b0",
+          "start_time": 86.62,
+          "end_time": 86.94
+        },
+        {
+          "text": " ",
+          "start_time": 86.94,
+          "end_time": 87.02
+        },
+        {
+          "text": "\u09b8\u09ac",
+          "start_time": 87.02,
+          "end_time": 87.24
+        },
+        {
+          "text": " ",
+          "start_time": 87.24,
+          "end_time": 87.3
+        },
+        {
+          "text": "cake\u09c7\u09b0",
+          "start_time": 87.3,
+          "end_time": 87.62
+        },
+        {
+          "text": " ",
+          "start_time": 87.62,
+          "end_time": 87.72
+        },
+        {
+          "text": "\u099b\u09ac\u09bf,",
+          "start_time": 87.72,
+          "end_time": 88.02
+        },
+        {
+          "text": " ",
+          "start_time": 88.02,
+          "end_time": 88.3
+        },
+        {
+          "text": "\u09a6\u09be\u09ae",
+          "start_time": 88.3,
+          "end_time": 88.56
+        },
+        {
+          "text": " ",
+          "start_time": 88.56,
+          "end_time": 88.7
+        },
+        {
+          "text": "\u0993",
+          "start_time": 88.7,
+          "end_time": 88.72
+        },
+        {
+          "text": " ",
+          "start_time": 88.72,
+          "end_time": 88.86
+        },
+        {
+          "text": "flavor",
+          "start_time": 88.86,
+          "end_time": 89.16
+        },
+        {
+          "text": " ",
+          "start_time": 89.16,
+          "end_time": 89.22
+        },
+        {
+          "text": "\u09a6\u09c7\u0996\u09be\u09a8\u09cb",
+          "start_time": 89.22,
+          "end_time": 89.54
+        },
+        {
+          "text": " ",
+          "start_time": 89.54,
+          "end_time": 89.58
+        },
+        {
+          "text": "\u09af\u09be\u09ac\u09c7\u0964",
+          "start_time": 89.58,
+          "end_time": 90.26
+        },
+        {
+          "text": " ",
+          "start_time": 90.26,
+          "end_time": 90.28
+        },
+        {
+          "text": "\u09a6\u09be\u09ae",
+          "start_time": 90.28,
+          "end_time": 90.44
+        },
+        {
+          "text": " ",
+          "start_time": 90.44,
+          "end_time": 90.5
+        },
+        {
+          "text": "\u0995\u09a4?",
+          "start_time": 90.5,
+          "end_time": 90.7
+        },
+        {
+          "text": " ",
+          "start_time": 90.7,
+          "end_time": 91.12
+        },
+        {
+          "text": "\u09aa\u09cd\u09b0\u09b6\u09cd\u09a8\u09c7\u09b0",
+          "start_time": 91.12,
+          "end_time": 91.5
+        },
+        {
+          "text": " ",
+          "start_time": 91.5,
+          "end_time": 91.54
+        },
+        {
+          "text": "\u0989\u09a4\u09cd\u09a4\u09b0\u09c7",
+          "start_time": 91.54,
+          "end_time": 92.0
+        },
+        {
+          "text": " ",
+          "start_time": 92.0,
+          "end_time": 92.04
+        },
+        {
+          "text": "\u09b6\u09c1\u09a7\u09c1",
+          "start_time": 92.04,
+          "end_time": 92.24
+        },
+        {
+          "text": " ",
+          "start_time": 92.24,
+          "end_time": 92.4
+        },
+        {
+          "text": "link\u099f\u09be",
+          "start_time": 92.4,
+          "end_time": 92.78
+        },
+        {
+          "text": " ",
+          "start_time": 92.78,
+          "end_time": 92.8
+        },
+        {
+          "text": "\u09aa\u09be\u09a0\u09be\u09b2\u09c7\u0987",
+          "start_time": 92.8,
+          "end_time": 93.2
+        },
+        {
+          "text": " ",
+          "start_time": 93.2,
+          "end_time": 93.24
+        },
+        {
+          "text": "\u09b9\u09ac\u09c7\u0964",
+          "start_time": 93.24,
+          "end_time": 94.12
+        },
+        {
+          "text": " ",
+          "start_time": 94.12,
+          "end_time": 94.2
+        },
+        {
+          "text": "\u0986\u09aa\u09a8\u09be\u09b0",
+          "start_time": 94.22,
+          "end_time": 94.5
+        },
+        {
+          "text": " ",
+          "start_time": 94.5,
+          "end_time": 94.54
+        },
+        {
+          "text": "page",
+          "start_time": 94.54,
+          "end_time": 94.76
+        },
+        {
+          "text": " ",
+          "start_time": 94.76,
+          "end_time": 94.82
+        },
+        {
+          "text": "\u09a6\u09c7\u0996\u09be\u09ac\u09c7",
+          "start_time": 94.82,
+          "end_time": 95.32
+        },
+        {
+          "text": " ",
+          "start_time": 95.32,
+          "end_time": 95.36
+        },
+        {
+          "text": "\u098f\u0995\u099f\u09be",
+          "start_time": 95.36,
+          "end_time": 95.62
+        },
+        {
+          "text": " ",
+          "start_time": 95.62,
+          "end_time": 95.66
+        },
+        {
+          "text": "professional",
+          "start_time": 95.66,
+          "end_time": 96.2
+        },
+        {
+          "text": " ",
+          "start_time": 96.2,
+          "end_time": 96.34
+        },
+        {
+          "text": "cake",
+          "start_time": 96.34,
+          "end_time": 96.52
+        },
+        {
+          "text": " ",
+          "start_time": 96.52,
+          "end_time": 96.58
+        },
+        {
+          "text": "brand\u09c7\u09b0",
+          "start_time": 96.58,
+          "end_time": 96.9
+        },
+        {
+          "text": " ",
+          "start_time": 96.9,
+          "end_time": 96.94
+        },
+        {
+          "text": "\u09ae\u09a4\u09cb\u0964",
+          "start_time": 96.94,
+          "end_time": 97.72
+        },
+        {
+          "text": " ",
+          "start_time": 97.72,
+          "end_time": 97.8
+        },
+        {
+          "text": "\u0986\u09af\u09bc",
+          "start_time": 97.8,
+          "end_time": 97.96
+        },
+        {
+          "text": " ",
+          "start_time": 97.96,
+          "end_time": 98.0
+        },
+        {
+          "text": "\u09ac\u09cd\u09af\u09af\u09bc\u09c7\u09b0",
+          "start_time": 98.0,
+          "end_time": 98.22
+        },
+        {
+          "text": " ",
+          "start_time": 98.22,
+          "end_time": 98.26
+        },
+        {
+          "text": "\u09b9\u09bf\u09b8\u09be\u09ac,",
+          "start_time": 98.26,
+          "end_time": 98.62
+        },
+        {
+          "text": " ",
+          "start_time": 98.62,
+          "end_time": 98.62
+        },
+        {
+          "text": "\u09ae\u09af\u09bc\u09a6\u09be,",
+          "start_time": 99.24,
+          "end_time": 99.66
+        },
+        {
+          "text": " ",
+          "start_time": 99.66,
+          "end_time": 99.84
+        },
+        {
+          "text": "cream,",
+          "start_time": 99.84,
+          "end_time": 100.24
+        },
+        {
+          "text": " ",
+          "start_time": 100.24,
+          "end_time": 100.48
+        },
+        {
+          "text": "box,",
+          "start_time": 100.48,
+          "end_time": 100.9
+        },
+        {
+          "text": " ",
+          "start_time": 100.9,
+          "end_time": 101.1
+        },
+        {
+          "text": "delivery",
+          "start_time": 101.1,
+          "end_time": 101.54
+        },
+        {
+          "text": " ",
+          "start_time": 101.54,
+          "end_time": 101.84
+        },
+        {
+          "text": "\u09b8\u09ac",
+          "start_time": 101.84,
+          "end_time": 102.1
+        },
+        {
+          "text": " ",
+          "start_time": 102.1,
+          "end_time": 102.14
+        },
+        {
+          "text": "\u0996\u09b0\u099a",
+          "start_time": 102.14,
+          "end_time": 102.42
+        },
+        {
+          "text": " ",
+          "start_time": 102.42,
+          "end_time": 102.46
+        },
+        {
+          "text": "\u09b2\u09bf\u0996\u09c7",
+          "start_time": 102.46,
+          "end_time": 102.62
+        },
+        {
+          "text": " ",
+          "start_time": 102.62,
+          "end_time": 102.66
+        },
+        {
+          "text": "\u09b0\u09be\u0996\u09be",
+          "start_time": 102.66,
+          "end_time": 102.84
+        },
+        {
+          "text": " ",
+          "start_time": 102.84,
+          "end_time": 102.88
+        },
+        {
+          "text": "\u09af\u09be\u09ac\u09c7\u0964",
+          "start_time": 102.88,
+          "end_time": 103.56
+        },
+        {
+          "text": " ",
+          "start_time": 103.56,
+          "end_time": 103.64
+        },
+        {
+          "text": "\u0996\u09be\u09a4\u09be",
+          "start_time": 103.64,
+          "end_time": 104.0
+        },
+        {
+          "text": " ",
+          "start_time": 104.0,
+          "end_time": 104.06
+        },
+        {
+          "text": "\u09b9\u09be\u09b0\u09be\u09a8\u09cb",
+          "start_time": 104.06,
+          "end_time": 104.48
+        },
+        {
+          "text": " ",
+          "start_time": 104.48,
+          "end_time": 104.52
+        },
+        {
+          "text": "\u09ac\u09be",
+          "start_time": 104.52,
+          "end_time": 104.62
+        },
+        {
+          "text": " ",
+          "start_time": 104.62,
+          "end_time": 104.66
+        },
+        {
+          "text": "\u09b9\u09bf\u09b8\u09be\u09ac",
+          "start_time": 104.66,
+          "end_time": 104.98
+        },
+        {
+          "text": " ",
+          "start_time": 104.98,
+          "end_time": 105.02
+        },
+        {
+          "text": "\u09ae\u09c7\u09b2\u09be\u09a4\u09c7",
+          "start_time": 105.02,
+          "end_time": 105.36
+        },
+        {
+          "text": " ",
+          "start_time": 105.36,
+          "end_time": 105.46
+        },
+        {
+          "text": "\u09b0\u09be\u09a4",
+          "start_time": 105.46,
+          "end_time": 105.72
+        },
+        {
+          "text": " ",
+          "start_time": 105.72,
+          "end_time": 105.78
+        },
+        {
+          "text": "\u099c\u09be\u0997\u09be\u09b0",
+          "start_time": 105.78,
+          "end_time": 106.14
+        },
+        {
+          "text": " ",
+          "start_time": 106.14,
+          "end_time": 106.18
+        },
+        {
+          "text": "\u09a6\u09bf\u09a8",
+          "start_time": 106.18,
+          "end_time": 106.34
+        },
+        {
+          "text": " ",
+          "start_time": 106.34,
+          "end_time": 106.48
+        },
+        {
+          "text": "\u09b6\u09c7\u09b7\u0964",
+          "start_time": 106.48,
+          "end_time": 107.22
+        },
+        {
+          "text": " ",
+          "start_time": 107.22,
+          "end_time": 107.26
+        },
+        {
+          "text": "\u099f\u09be\u0995\u09be",
+          "start_time": 107.26,
+          "end_time": 107.58
+        },
+        {
+          "text": " ",
+          "start_time": 107.58,
+          "end_time": 107.62
+        },
+        {
+          "text": "\u0995\u09cb\u09a5\u09be\u09af\u09bc",
+          "start_time": 107.62,
+          "end_time": 107.92
+        },
+        {
+          "text": " ",
+          "start_time": 107.92,
+          "end_time": 107.96
+        },
+        {
+          "text": "\u09af\u09be\u099a\u09cd\u099b\u09c7",
+          "start_time": 107.96,
+          "end_time": 108.3
+        },
+        {
+          "text": " ",
+          "start_time": 108.3,
+          "end_time": 108.64
+        },
+        {
+          "text": "\u09b8\u09ac",
+          "start_time": 108.64,
+          "end_time": 108.84
+        },
+        {
+          "text": " ",
+          "start_time": 108.84,
+          "end_time": 108.92
+        },
+        {
+          "text": "\u09b8\u09ae\u09af\u09bc",
+          "start_time": 108.92,
+          "end_time": 109.16
+        },
+        {
+          "text": " ",
+          "start_time": 109.16,
+          "end_time": 109.18
+        },
+        {
+          "text": "\u09aa\u09b0\u09bf\u09b7\u09cd\u0995\u09be\u09b0",
+          "start_time": 109.18,
+          "end_time": 109.54
+        },
+        {
+          "text": " ",
+          "start_time": 109.54,
+          "end_time": 109.62
+        },
+        {
+          "text": "\u09a5\u09be\u0995\u09ac\u09c7\u0964",
+          "start_time": 109.62,
+          "end_time": 110.36
+        },
+        {
+          "text": " ",
+          "start_time": 110.36,
+          "end_time": 110.44
+        },
+        {
+          "text": "\u09b6\u09c1\u09a7\u09c1",
+          "start_time": 110.44,
+          "end_time": 110.66
+        },
+        {
+          "text": " ",
+          "start_time": 110.66,
+          "end_time": 110.8
+        },
+        {
+          "text": "live",
+          "start_time": 110.8,
+          "end_time": 111.06
+        },
+        {
+          "text": " ",
+          "start_time": 111.06,
+          "end_time": 111.08
+        },
+        {
+          "text": "\u09b9\u09b2\u09c7",
+          "start_time": 111.1,
+          "end_time": 111.3
+        },
+        {
+          "text": " ",
+          "start_time": 111.3,
+          "end_time": 111.74
+        },
+        {
+          "text": "\u09ac\u09bf\u0995\u09cd\u09b0\u09bf",
+          "start_time": 111.74,
+          "end_time": 112.18
+        },
+        {
+          "text": " ",
+          "start_time": 112.18,
+          "end_time": 112.22
+        },
+        {
+          "text": "\u0993",
+          "start_time": 112.22,
+          "end_time": 112.28
+        },
+        {
+          "text": " ",
+          "start_time": 112.28,
+          "end_time": 112.38
+        },
+        {
+          "text": "\u09b2\u09be\u09ad\u09c7\u09b0",
+          "start_time": 112.38,
+          "end_time": 112.7
+        },
+        {
+          "text": " ",
+          "start_time": 112.7,
+          "end_time": 112.74
+        },
+        {
+          "text": "report,",
+          "start_time": 112.74,
+          "end_time": 113.14
+        },
+        {
+          "text": " ",
+          "start_time": 113.14,
+          "end_time": 113.14
+        },
+        {
+          "text": "\u09a6\u09bf\u09a8,",
+          "start_time": 113.64,
+          "end_time": 113.9
+        },
+        {
+          "text": " ",
+          "start_time": 113.9,
+          "end_time": 114.08
+        },
+        {
+          "text": "\u09b8\u09aa\u09cd\u09a4\u09be\u09b9",
+          "start_time": 114.08,
+          "end_time": 114.52
+        },
+        {
+          "text": " ",
+          "start_time": 114.52,
+          "end_time": 114.6
+        },
+        {
+          "text": "\u09ac\u09be",
+          "start_time": 114.6,
+          "end_time": 114.74
+        },
+        {
+          "text": " ",
+          "start_time": 114.74,
+          "end_time": 114.8
+        },
+        {
+          "text": "\u09ae\u09be\u09b8",
+          "start_time": 114.8,
+          "end_time": 115.02
+        },
+        {
+          "text": " ",
+          "start_time": 115.02,
+          "end_time": 115.08
+        },
+        {
+          "text": "\u09b6\u09c7\u09b7\u09c7",
+          "start_time": 115.08,
+          "end_time": 115.48
+        },
+        {
+          "text": " ",
+          "start_time": 115.48,
+          "end_time": 115.54
+        },
+        {
+          "text": "\u0995\u09a4",
+          "start_time": 115.54,
+          "end_time": 115.76
+        },
+        {
+          "text": " ",
+          "start_time": 115.76,
+          "end_time": 115.84
+        },
+        {
+          "text": "\u09ac\u09bf\u0995\u09cd\u09b0\u09bf",
+          "start_time": 115.84,
+          "end_time": 116.1
+        },
+        {
+          "text": " ",
+          "start_time": 116.1,
+          "end_time": 116.14
+        },
+        {
+          "text": "\u09b9\u09b2\u09cb",
+          "start_time": 116.14,
+          "end_time": 116.46
+        },
+        {
+          "text": " ",
+          "start_time": 116.46,
+          "end_time": 116.52
+        },
+        {
+          "text": "\u0986\u09b0",
+          "start_time": 116.52,
+          "end_time": 116.66
+        },
+        {
+          "text": " ",
+          "start_time": 116.66,
+          "end_time": 116.72
+        },
+        {
+          "text": "\u09b2\u09be\u09ad",
+          "start_time": 116.72,
+          "end_time": 116.92
+        },
+        {
+          "text": " ",
+          "start_time": 116.92,
+          "end_time": 117.0
+        },
+        {
+          "text": "\u0995\u09a4",
+          "start_time": 117.0,
+          "end_time": 117.22
+        },
+        {
+          "text": " ",
+          "start_time": 117.22,
+          "end_time": 117.24
+        },
+        {
+          "text": "\u09a5\u09be\u0995\u09b2\u09cb",
+          "start_time": 117.24,
+          "end_time": 117.52
+        },
+        {
+          "text": " ",
+          "start_time": 117.52,
+          "end_time": 117.76
+        },
+        {
+          "text": "\u09a6\u09c7\u0996\u09c7",
+          "start_time": 117.76,
+          "end_time": 117.94
+        },
+        {
+          "text": " ",
+          "start_time": 117.94,
+          "end_time": 118.0
+        },
+        {
+          "text": "\u09a8\u09bf\u09a8\u0964",
+          "start_time": 118.0,
+          "end_time": 118.46
+        },
+        {
+          "text": " ",
+          "start_time": 118.46,
+          "end_time": 118.5
+        },
+        {
+          "text": "\u0995\u09cb\u09a8",
+          "start_time": 118.5,
+          "end_time": 118.68
+        },
+        {
+          "text": " ",
+          "start_time": 118.68,
+          "end_time": 118.78
+        },
+        {
+          "text": "cake",
+          "start_time": 118.78,
+          "end_time": 119.0
+        },
+        {
+          "text": " ",
+          "start_time": 119.0,
+          "end_time": 119.06
+        },
+        {
+          "text": "\u09b8\u09ac\u099a\u09c7\u09af\u09bc\u09c7",
+          "start_time": 119.06,
+          "end_time": 119.46
+        },
+        {
+          "text": " ",
+          "start_time": 119.46,
+          "end_time": 119.48
+        },
+        {
+          "text": "\u09ac\u09c7\u09b6\u09bf",
+          "start_time": 119.48,
+          "end_time": 119.76
+        },
+        {
+          "text": " ",
+          "start_time": 119.76,
+          "end_time": 119.8
+        },
+        {
+          "text": "\u099a\u09b2\u099b\u09c7",
+          "start_time": 119.8,
+          "end_time": 120.14
+        },
+        {
+          "text": " ",
+          "start_time": 120.14,
+          "end_time": 120.38
+        },
+        {
+          "text": "\u09ac\u09c1\u099d\u09c7",
+          "start_time": 120.38,
+          "end_time": 120.68
+        },
+        {
+          "text": " ",
+          "start_time": 120.68,
+          "end_time": 120.76
+        },
+        {
+          "text": "\u09b8\u09c7\u09a6\u09bf\u0995\u09c7",
+          "start_time": 120.76,
+          "end_time": 121.22
+        },
+        {
+          "text": " ",
+          "start_time": 121.22,
+          "end_time": 121.26
+        },
+        {
+          "text": "\u09ac\u09c7\u09b6\u09bf",
+          "start_time": 121.26,
+          "end_time": 121.5
+        },
+        {
+          "text": " ",
+          "start_time": 121.5,
+          "end_time": 121.54
+        },
+        {
+          "text": "\u09ae\u09a8\u09cb\u09af\u09cb\u0997",
+          "start_time": 121.54,
+          "end_time": 121.84
+        },
+        {
+          "text": " ",
+          "start_time": 121.84,
+          "end_time": 121.9
+        },
+        {
+          "text": "\u09a6\u09bf\u09a4\u09c7",
+          "start_time": 121.9,
+          "end_time": 122.1
+        },
+        {
+          "text": " ",
+          "start_time": 122.1,
+          "end_time": 122.12
+        },
+        {
+          "text": "\u09aa\u09be\u09b0\u09ac\u09c7\u09a8\u0964",
+          "start_time": 122.12,
+          "end_time": 122.86
+        },
+        {
+          "text": " ",
+          "start_time": 122.86,
+          "end_time": 122.94
+        },
+        {
+          "text": "\u0985\u09a8\u09c1\u09ae\u09be\u09a8",
+          "start_time": 122.94,
+          "end_time": 123.3
+        },
+        {
+          "text": " ",
+          "start_time": 123.3,
+          "end_time": 123.38
+        },
+        {
+          "text": "\u09a8\u09be",
+          "start_time": 123.38,
+          "end_time": 123.5
+        },
+        {
+          "text": " ",
+          "start_time": 123.5,
+          "end_time": 123.84
+        },
+        {
+          "text": "\u09b8\u09a0\u09bf\u0995",
+          "start_time": 123.84,
+          "end_time": 124.16
+        },
+        {
+          "text": " ",
+          "start_time": 124.16,
+          "end_time": 124.3
+        },
+        {
+          "text": "\u09a4\u09a5\u09cd\u09af",
+          "start_time": 124.3,
+          "end_time": 124.58
+        },
+        {
+          "text": " ",
+          "start_time": 124.58,
+          "end_time": 124.64
+        },
+        {
+          "text": "\u09a6\u09c7\u0996\u09c7",
+          "start_time": 124.64,
+          "end_time": 124.92
+        },
+        {
+          "text": " ",
+          "start_time": 124.92,
+          "end_time": 124.96
+        },
+        {
+          "text": "\u09ac\u09cd\u09af\u09ac\u09b8\u09be\u09b0",
+          "start_time": 124.96,
+          "end_time": 125.3
+        },
+        {
+          "text": " ",
+          "start_time": 125.3,
+          "end_time": 125.34
+        },
+        {
+          "text": "\u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4",
+          "start_time": 125.34,
+          "end_time": 125.72
+        },
+        {
+          "text": " ",
+          "start_time": 125.72,
+          "end_time": 125.78
+        },
+        {
+          "text": "\u09a8\u09c7\u09ac\u09c7\u09a8\u0964",
+          "start_time": 125.78,
+          "end_time": 126.56
+        },
+        {
+          "text": " ",
+          "start_time": 126.56,
+          "end_time": 126.62
+        },
+        {
+          "text": "\u0996\u09be\u09a4\u09be,",
+          "start_time": 126.62,
+          "end_time": 127.1
+        },
+        {
+          "text": " ",
+          "start_time": 127.1,
+          "end_time": 127.28
+        },
+        {
+          "text": "notepad,",
+          "start_time": 127.28,
+          "end_time": 127.88
+        },
+        {
+          "text": " ",
+          "start_time": 127.88,
+          "end_time": 128.039
+        },
+        {
+          "text": "gallery",
+          "start_time": 128.039,
+          "end_time": 128.6
+        },
+        {
+          "text": " ",
+          "start_time": 128.6,
+          "end_time": 128.66
+        },
+        {
+          "text": "\u0986\u09b0",
+          "start_time": 128.66,
+          "end_time": 128.8
+        },
+        {
+          "text": " ",
+          "start_time": 128.8,
+          "end_time": 128.86
+        },
+        {
+          "text": "Messenger-\u098f",
+          "start_time": 128.86,
+          "end_time": 129.4
+        },
+        {
+          "text": " ",
+          "start_time": 129.4,
+          "end_time": 129.44
+        },
+        {
+          "text": "\u099b\u09a1\u09bc\u09bf\u09af\u09bc\u09c7",
+          "start_time": 129.44,
+          "end_time": 129.72
+        },
+        {
+          "text": " ",
+          "start_time": 129.72,
+          "end_time": 129.759
+        },
+        {
+          "text": "\u09a5\u09be\u0995\u09be",
+          "start_time": 129.759,
+          "end_time": 129.96
+        },
+        {
+          "text": " ",
+          "start_time": 129.96,
+          "end_time": 130.16
+        },
+        {
+          "text": "\u09b8\u09ac",
+          "start_time": 130.16,
+          "end_time": 130.479
+        },
+        {
+          "text": " ",
+          "start_time": 130.479,
+          "end_time": 130.52
+        },
+        {
+          "text": "\u0995\u09be\u099c",
+          "start_time": 130.52,
+          "end_time": 130.78
+        },
+        {
+          "text": " ",
+          "start_time": 130.78,
+          "end_time": 130.979
+        },
+        {
+          "text": "\u098f\u0996\u09a8",
+          "start_time": 130.979,
+          "end_time": 131.32
+        },
+        {
+          "text": " ",
+          "start_time": 131.32,
+          "end_time": 131.4
+        },
+        {
+          "text": "\u098f\u0995",
+          "start_time": 131.44,
+          "end_time": 131.56
+        },
+        {
+          "text": " ",
+          "start_time": 131.56,
+          "end_time": 131.62
+        },
+        {
+          "text": "\u099c\u09be\u09af\u09bc\u0997\u09be\u09af\u09bc\u0964",
+          "start_time": 131.62,
+          "end_time": 132.3
+        },
+        {
+          "text": " ",
+          "start_time": 132.3,
+          "end_time": 132.38
+        },
+        {
+          "text": "\u0986\u09aa\u09a8\u09be\u09b0",
+          "start_time": 132.38,
+          "end_time": 132.64
+        },
+        {
+          "text": " ",
+          "start_time": 132.64,
+          "end_time": 132.7
+        },
+        {
+          "text": "\u09b8\u09ae\u09af\u09bc",
+          "start_time": 132.7,
+          "end_time": 132.96
+        },
+        {
+          "text": " ",
+          "start_time": 132.96,
+          "end_time": 133.02
+        },
+        {
+          "text": "\u09ac\u09be\u0981\u099a\u09ac\u09c7,",
+          "start_time": 133.02,
+          "end_time": 133.38
+        },
+        {
+          "text": " ",
+          "start_time": 133.38,
+          "end_time": 133.74
+        },
+        {
+          "text": "\u09ad\u09c1\u09b2",
+          "start_time": 133.74,
+          "end_time": 133.94
+        },
+        {
+          "text": " ",
+          "start_time": 133.94,
+          "end_time": 134.08
+        },
+        {
+          "text": "\u0995\u09ae\u09ac\u09c7",
+          "start_time": 134.08,
+          "end_time": 134.48
+        },
+        {
+          "text": " ",
+          "start_time": 134.48,
+          "end_time": 134.92
+        },
+        {
+          "text": "\u0986\u09b0",
+          "start_time": 134.92,
+          "end_time": 135.08
+        },
+        {
+          "text": " ",
+          "start_time": 135.08,
+          "end_time": 135.14
+        },
+        {
+          "text": "cake",
+          "start_time": 135.14,
+          "end_time": 135.38
+        },
+        {
+          "text": " ",
+          "start_time": 135.38,
+          "end_time": 135.4
+        },
+        {
+          "text": "\u09ac\u09be\u09a8\u09be\u09a8\u09cb\u09af\u09bc",
+          "start_time": 135.4,
+          "end_time": 135.96
+        },
+        {
+          "text": " ",
+          "start_time": 135.96,
+          "end_time": 136.06
+        },
+        {
+          "text": "\u0986\u09b0\u0993",
+          "start_time": 136.06,
+          "end_time": 136.36
+        },
+        {
+          "text": " ",
+          "start_time": 136.36,
+          "end_time": 136.4
+        },
+        {
+          "text": "\u09ac\u09c7\u09b6\u09bf",
+          "start_time": 136.4,
+          "end_time": 136.64
+        },
+        {
+          "text": " ",
+          "start_time": 136.64,
+          "end_time": 136.72
+        },
+        {
+          "text": "\u09ae\u09a8",
+          "start_time": 136.72,
+          "end_time": 136.86
+        },
+        {
+          "text": " ",
+          "start_time": 136.86,
+          "end_time": 136.9
+        },
+        {
+          "text": "\u09a6\u09bf\u09a4\u09c7",
+          "start_time": 136.9,
+          "end_time": 137.1
+        },
+        {
+          "text": " ",
+          "start_time": 137.1,
+          "end_time": 137.12
+        },
+        {
+          "text": "\u09aa\u09be\u09b0\u09ac\u09c7\u09a8\u0964",
+          "start_time": 137.14,
+          "end_time": 138.0
+        },
+        {
+          "text": " ",
+          "start_time": 138.0,
+          "end_time": 138.12
+        },
+        {
+          "text": "\u0986\u09aa\u09a8\u09be\u09b0",
+          "start_time": 138.12,
+          "end_time": 138.4
+        },
+        {
+          "text": " ",
+          "start_time": 138.4,
+          "end_time": 138.44
+        },
+        {
+          "text": "\u09b2\u0995\u09cd\u09b7\u09cd\u09af",
+          "start_time": 138.44,
+          "end_time": 138.78
+        },
+        {
+          "text": " ",
+          "start_time": 138.78,
+          "end_time": 138.92
+        },
+        {
+          "text": "\u09b6\u09c1\u09a7\u09c1",
+          "start_time": 138.92,
+          "end_time": 139.1
+        },
+        {
+          "text": " ",
+          "start_time": 139.1,
+          "end_time": 139.28
+        },
+        {
+          "text": "cake",
+          "start_time": 139.28,
+          "end_time": 139.52
+        },
+        {
+          "text": " ",
+          "start_time": 139.52,
+          "end_time": 139.56
+        },
+        {
+          "text": "\u09ac\u09bf\u0995\u09cd\u09b0\u09bf",
+          "start_time": 139.56,
+          "end_time": 139.78
+        },
+        {
+          "text": " ",
+          "start_time": 139.78,
+          "end_time": 139.84
+        },
+        {
+          "text": "\u0995\u09b0\u09be",
+          "start_time": 139.84,
+          "end_time": 140.02
+        },
+        {
+          "text": " ",
+          "start_time": 140.02,
+          "end_time": 140.08
+        },
+        {
+          "text": "\u09a8\u09be,",
+          "start_time": 140.08,
+          "end_time": 140.18
+        },
+        {
+          "text": " ",
+          "start_time": 140.18,
+          "end_time": 140.18
+        },
+        {
+          "text": "\u09a8\u09bf\u099c\u09c7\u09b0",
+          "start_time": 140.58,
+          "end_time": 140.84
+        },
+        {
+          "text": " ",
+          "start_time": 140.84,
+          "end_time": 140.9
+        },
+        {
+          "text": "\u098f\u0995\u099f\u09be",
+          "start_time": 140.9,
+          "end_time": 141.2
+        },
+        {
+          "text": " ",
+          "start_time": 141.2,
+          "end_time": 141.28
+        },
+        {
+          "text": "\u09b8\u09ab\u09b2",
+          "start_time": 141.28,
+          "end_time": 141.64
+        },
+        {
+          "text": " ",
+          "start_time": 141.64,
+          "end_time": 141.84
+        },
+        {
+          "text": "cake",
+          "start_time": 141.84,
+          "end_time": 142.04
+        },
+        {
+          "text": " ",
+          "start_time": 142.04,
+          "end_time": 142.12
+        },
+        {
+          "text": "brand",
+          "start_time": 142.12,
+          "end_time": 142.36
+        },
+        {
+          "text": " ",
+          "start_time": 142.36,
+          "end_time": 142.44
+        },
+        {
+          "text": "\u0997\u09a1\u09bc\u09c7",
+          "start_time": 142.44,
+          "end_time": 142.6
+        },
+        {
+          "text": " ",
+          "start_time": 142.6,
+          "end_time": 142.68
+        },
+        {
+          "text": "\u09a4\u09cb\u09b2\u09be\u0964",
+          "start_time": 142.68,
+          "end_time": 143.42
+        },
+        {
+          "text": " ",
+          "start_time": 143.42,
+          "end_time": 143.48
+        },
+        {
+          "text": "\u09ac\u09bf\u09b8\u09cd\u09a4\u09be\u09b0\u09bf\u09a4",
+          "start_time": 143.48,
+          "end_time": 143.88
+        },
+        {
+          "text": " ",
+          "start_time": 143.88,
+          "end_time": 144.02
+        },
+        {
+          "text": "\u099c\u09be\u09a8\u09a4\u09c7",
+          "start_time": 144.02,
+          "end_time": 144.4
+        },
+        {
+          "text": " ",
+          "start_time": 144.4,
+          "end_time": 144.46
+        },
+        {
+          "text": "comment-\u098f",
+          "start_time": 144.46,
+          "end_time": 144.8
+        },
+        {
+          "text": " ",
+          "start_time": 144.8,
+          "end_time": 144.84
+        },
+        {
+          "text": "\u09b2\u09bf\u0996\u09c1\u09a8",
+          "start_time": 144.84,
+          "end_time": 145.16
+        },
+        {
+          "text": " ",
+          "start_time": 145.16,
+          "end_time": 145.4
+        },
+        {
+          "text": "\u09ae\u09bf\u09b7\u09cd\u099f\u09bf\u0993",
+          "start_time": 145.4,
+          "end_time": 145.8
+        },
+        {
+          "text": " ",
+          "start_time": 145.8,
+          "end_time": 145.8
+        },
+        {
+          "text": "\u0985\u09a5\u09ac\u09be",
+          "start_time": 146.26,
+          "end_time": 146.68
+        },
+        {
+          "text": " ",
+          "start_time": 146.68,
+          "end_time": 146.72
+        },
+        {
+          "text": "page-\u098f",
+          "start_time": 146.72,
+          "end_time": 147.06
+        },
+        {
+          "text": " ",
+          "start_time": 147.06,
+          "end_time": 147.1
+        },
+        {
+          "text": "inbox",
+          "start_time": 147.1,
+          "end_time": 147.46
+        },
+        {
+          "text": " ",
+          "start_time": 147.46,
+          "end_time": 147.52
+        },
+        {
+          "text": "\u0995\u09b0\u09c1\u09a8\u0964",
+          "start_time": 147.52,
+          "end_time": 148.24
+        },
+        {
+          "text": " ",
+          "start_time": 148.24,
+          "end_time": 148.34
+        },
+        {
+          "text": "\u09ae\u09bf\u09b7\u09cd\u099f\u09bf\u0993,",
+          "start_time": 148.34,
+          "end_time": 148.76
+        },
+        {
+          "text": " ",
+          "start_time": 148.76,
+          "end_time": 148.78
+        },
+        {
+          "text": "cake",
+          "start_time": 149.28,
+          "end_time": 149.48
+        },
+        {
+          "text": " ",
+          "start_time": 149.48,
+          "end_time": 149.54
+        },
+        {
+          "text": "\u09ac\u09cd\u09af\u09ac\u09b8\u09be",
+          "start_time": 149.54,
+          "end_time": 149.86
+        },
+        {
+          "text": " ",
+          "start_time": 149.86,
+          "end_time": 149.88
+        },
+        {
+          "text": "\u09b9\u09cb\u0995",
+          "start_time": 149.88,
+          "end_time": 150.04
+        },
+        {
+          "text": " ",
+          "start_time": 150.04,
+          "end_time": 150.16
+        },
+        {
+          "text": "\u09b8\u09b9\u099c,",
+          "start_time": 150.16,
+          "end_time": 150.58
+        },
+        {
+          "text": " ",
+          "start_time": 150.58,
+          "end_time": 150.92
+        },
+        {
+          "text": "\u0997\u09c1\u099b\u09be\u09a8\u09cb",
+          "start_time": 150.92,
+          "end_time": 151.34
+        },
+        {
+          "text": " ",
+          "start_time": 151.34,
+          "end_time": 151.58
+        },
+        {
+          "text": "\u0986\u09b0",
+          "start_time": 151.58,
+          "end_time": 151.72
+        },
+        {
+          "text": " ",
+          "start_time": 151.72,
+          "end_time": 151.78
+        },
+        {
+          "text": "smart\u0964",
+          "start_time": 151.78,
+          "end_time": 152.22
+        }
+      ]
+    }
+  ]
+}

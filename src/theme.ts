@@ -154,6 +154,27 @@ export const greenPalette: Palette = {
   tintSoft: "rgba(240,250,243,0.92)",
 };
 
+// "pink-glass": the same light glass in the pink and chocolate brown of the Mishtio logo.
+export const pinkPalette: Palette = {
+  base: "#FFF7FA",
+  ink: "#3B1A10",
+  inkMuted: "#7A5A50",
+  brand: "#E11D74",
+  brand2: "#F472B6",
+  keyword: "linear-gradient(90deg, #E11D74, #A21CAF)",
+  button: "linear-gradient(90deg, #E11D74, #F472B6)",
+  glowRgb: "244,114,182",
+  brandRgb: "225,29,116",
+  shadowRgb: "131,24,67",
+  fieldA: "249,168,212",
+  fieldB: "253,205,170",
+  fieldC: "216,180,254",
+  hazeRgb: "252,231,243",
+  lineSoft: "#FBE4EF",
+  lineStrong: "#F6C6DC",
+  tintSoft: "rgba(255,241,247,0.92)",
+};
+
 export const greenIconTints: Record<string, [string, string]> = {
   ...iconTints,
   green: ["#86EFAC", "#16A34A"],
