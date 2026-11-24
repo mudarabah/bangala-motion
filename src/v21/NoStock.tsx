@@ -193,7 +193,7 @@ const Join: React.FC = () => (
 
 const Shop: React.FC = () => {
   const { frame, f } = useTime();
-  const y = interpolate(frame, [f(t(76)), f(t(80)) + 30], [0, -220], clamp);
+  const y = interpolate(frame, [f(t(76)), f(t(80)) + 30], [0, -27], clamp);
   return (
     <>
       <Wash tone="blue" />
