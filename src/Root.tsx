@@ -20,6 +20,7 @@ import { TOTAL_SECONDS_19, Video19 } from "./v19/MishtioCatalog";
 import { TOTAL_SECONDS_20, Video20 } from "./v20/MishtioNights";
 import { TOTAL_SECONDS_21, Video21 } from "./v21/NoStock";
 import { TOTAL_SECONDS_22, Video22 } from "./v22/Udyokta";
+import { TOTAL_SECONDS_23, Video23 } from "./v23/HairClip";
 import { TOTAL_SECONDS, Video } from "./Video";
 
 // Every video is 3840x2160, 30 fps (see CLAUDE.md). Length = voiceover + 1 s.
@@ -53,6 +54,14 @@ export const RemotionRoot: React.FC = () => {
         />
       </Folder>
       <Folder name="Mudarabah">
+        <Composition
+          id="HairClipStory"
+          component={Video23}
+          durationInFrames={Math.ceil(TOTAL_SECONDS_23 * 30)}
+          fps={30}
+          width={3840}
+          height={2160}
+        />
         <Composition
           id="UdyoktaNight"
           component={Video22}
